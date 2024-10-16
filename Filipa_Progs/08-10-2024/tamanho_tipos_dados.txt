@@ -1,8 +1,0 @@
-Tamanho de char: 1 byte(s)
-Tamanho de short: 2 byte(s)
-Tamanho de int: 4 byte(s)
-Tamanho de long: 4 byte(s)
-Tamanho de long long: 8 byte(s)
-Tamanho de float: 4 byte(s)
-Tamanho de double: 8 byte(s)
-Tamanho de long double: 16 byte(s)
