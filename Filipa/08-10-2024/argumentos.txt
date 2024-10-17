@@ -1,0 +1,5 @@
+Argumentos fornecidos:
+Argumento 0: C:\Programacao\Z_FF_CPP\output\08-10-2024-T3-FF.exe
+Argumento 1: Programação em C++
+Argumento 2: Avançada
+Argumento 3: 2024-10-08

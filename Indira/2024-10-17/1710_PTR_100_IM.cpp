@@ -1,8 +1,9 @@
 #include <iostream>
+#include <ctime> 
+#include <fstream> 
+#include <string>
 
-extern "C" {
-    #include "./timestamp_FF.h"
-}
+using namespace std;
 
 /**
  * Este conjunto de código mostras definições e utilização do conceito de ponteiros em C/C++.
@@ -23,7 +24,128 @@ extern "C" {
  * Na verdade, o conceito de ponteiro surgiu na linguagem Pascal para a implementação de 'listas'.
  * As variáveis do tipo ponteiro 'apontam' para o próximo elemento de uma lista. 
  */
+
+// Função para imprimir uma nova linha
+void mudaLinha() {
+    std::cout << std::endl;
+}
+
+// Função para imprimir o carimbo com a data e hora atuais
+
+void meuCarimbo() {
+    std::time_t tempo_atual = std::time(nullptr);  // Obtém o tempo atual
+    std::tm* tempo_local = std::localtime(&tempo_atual);  // Converte para a hora local
+    char data_hora[64];  // String para armazenar a data e hora
+
+    // Formata a data e hora no formato "dd-mm-yyyy hh:mm:ss"
+    std::strftime(data_hora, sizeof(data_hora), "%d-%m-%Y %H:%M:%S", tempo_local);
+
+    // Imprime o carimbo com as informações
+    std::cout << "\n[UFCD_U15] - [Ponteiros] - [Indira] - [ " << data_hora << " ]";
+    mudaLinha();  // Chama a função para pular linha
+}
+
+
+// Função para imprimir uma linha de separação com 120 asteriscos
+void separador() {
+    for (int i = 0; i < 120; i++) {
+        std::cout << "*";
+    }
+    mudaLinha();  // Pula linha após imprimir os asteriscos
+}
+
+// Função para exemplo de ponteiro simples
+void exemploPonteiroSimples() {
+        std::cout << "--- Exemplo 02 --->" << std::endl;
+        int var_ex02 = 20;
+        int *ptr_ex02;
+        ptr_ex02 = &var_ex02; 
+        std::cout << "Mostra o valor atual da variável 'var_ex02': " << var_ex02 << std::endl;
+        std::cout << "Mostra o endereço de memória onde se encontra a variável 'var_ex02': " << ptr_ex02 << std::endl;
+        std::cout << "Mostra o valor da variável 'var_ex02', apontada pelo ponteiro 'ptr_ex02': " << *ptr_ex02 << std::endl;
+        mudaLinha();
+}
+
+// Função para exemplo de ponteiro com array
+void exemploPonteiroArray() {
+      std::cout << "--- Exemplo 05 --->" << std::endl;
+        int numeros[5] = {10, 20, 30, 40, 50}; // Definir e inicializar um 'array' de números inteiros.
+        for (int i = 0; i < 5; ++i) {
+            std::cout << numeros[i] << " ";
+        }
+        std::cout << std::endl;
+        int *ptr = numeros; // Definir e inicializar um 'ponteiro' para o 'array' de números inteiros.
+        std::cout << "Endereço de memória onde está o primeiro elemento do 'array': " << ptr << std::endl;
+        std::cout << "Valor do primeiro elemento do 'array', usando o índice (index): " << numeros[0] << std::endl;
+        std::cout << "Valor do primeiro elemento do 'array', usando o endereço (pointer): " << *ptr << std::endl;
+        // Nota: se executarmos o código várias vezes verificamos que os endereços de memória são diferentes em cada execução.
+        mudaLinha();
+      
+}
+
+// Função para exemplo de ponteiro para ponteiro
+void exemploPonteiroParaPonteiro() {
+    mudaLinha();
+}
+
+// Função para carregar e exibir o conteúdo da teoria a partir de um arquivo de texto
+void mostrarMateria(const std::string& nomeFicheiro) {
+    std::ifstream ficheiro(nomeFicheiro);
+    std::string linha;
+    
+    if (ficheiro.is_open()) {
+        while (getline(ficheiro, linha)) {
+            std::cout << linha << std::endl;
+        }
+        ficheiro.close();
+    } else {
+        std::cout << "Erro ao abrir o ficheiro da materia: " << nomeFicheiro << std::endl;
+    }
+    mudaLinha();
+}
+
+// Função para mostrar o menu e escolher a opção
+void mostrarMenu() {
+    int opcao = 0;
+    do {
+        separador();
+        std::cout << "Menu de Opcoes:\n";
+        std::cout << "1. Exemplo de ponteiro simples\n";
+        std::cout << "2. Exemplo de ponteiro com array\n";
+        std::cout << "3. Exemplo de ponteiro para ponteiro\n";
+        std::cout << "4. Sair\n";
+        std::cout << "Escolha uma opcao: ";
+        std::cin >> opcao;
+
+        switch (opcao) {
+            case 1:
+                mostrarMateria("materia_ponteiro_simples.txt");
+                exemploPonteiroSimples();
+                break;
+            case 2:
+                mostrarMateria("materia_ponteiro_array.txt");
+                exemploPonteiroArray();
+                break;
+            case 3:
+                mostrarMateria("materia_ponteiro_para_ponteiro.txt");
+                exemploPonteiroParaPonteiro();
+                break;
+            case 4:
+                std::cout << "A sair...\n";
+                break;
+            default:
+                std::cout << "Opcao invalida! Tente novamente.\n";
+        }
+    } while (opcao != 4);
+
+}
+
 int main() {
+    separador();
+    meuCarimbo();
+    mudaLinha();
+
+    mostrarMenu();
     
     /** 
     * O operador '&' é unário e significa 'endereço de...'. Por exemplo, &codPostal quer dizer 'endereço da variável codPostal'.
@@ -32,11 +154,10 @@ int main() {
     * [Exemplo 01] 
     */
         std::cout << "--- Exemplo 01 --->" << std::endl;
-        mudaLinha();
         int numero = 10;
         std::cout << numero  << std::endl;
         std::cout << &numero << std::endl;
-
+        mudaLinha();
 /**
  * Vamos considerar que dispomos de um tipo de dados para representar endereços.
  * Chamamos a este tipo "tipo apontador" (Pointer Type).
@@ -50,21 +171,20 @@ int main() {
 
     /** 
     * [Exemplo 02]
-    */  mudaLinha();
+    */ 
         std::cout << "--- Exemplo 02 --->" << std::endl;
-        mudaLinha();
         int var_ex02 = 20;
         int *ptr_ex02;
         ptr_ex02 = &var_ex02; 
         std::cout << "Mostra o valor atual da variável 'var_ex02': " << var_ex02 << std::endl;
         std::cout << "Mostra o endereço de memória onde se encontra a variável 'var_ex02': " << ptr_ex02 << std::endl;
         std::cout << "Mostra o valor da variável 'var_ex02', apontada pelo ponteiro 'ptr_ex02': " << *ptr_ex02 << std::endl;
+        mudaLinha();
 
     /** 
     * [Exemplo 03]
-    */ mudaLinha();
+    */ 
         std::cout << "--- Exemplo 03 --->" << std::endl;
-        mudaLinha();
         char letra_ex03 = '-';		
         char *ptr_ex03;
         ptr_ex03 = &letra_ex03;
@@ -75,6 +195,7 @@ int main() {
          */
         *ptr_ex03 = '+'; 
         std::cout << "Resultado do acesso ao endereço de memória da variável 'letra_ex03': " << letra_ex03 << std::endl;
+        mudaLinha();
         
 /**
  * Existem alguns erros muito comuns quando se usam ponteiros:
@@ -86,18 +207,16 @@ int main() {
  */
     /** 
     * [Exemplo 04]
-    */  mudaLinha();
+    */ 
         std::cout << "--- Exemplo 04 --->" << std::endl;
-        //mudaLinha();
         //int k, *p;
 		//*p = 10;
         //std::cout << *p  << std::endl; // Atenção ao erro de 'execução' (runtime).
 
     /** 
     * [Exemplo 05]
-    */  mudaLinha();
+    */ 
         std::cout << "--- Exemplo 05 --->" << std::endl;
-        mudaLinha();
         int numeros[5] = {10, 20, 30, 40, 50}; // Definir e inicializar um 'array' de números inteiros.
         for (int i = 0; i < 5; ++i) {
             std::cout << numeros[i] << " ";
@@ -108,6 +227,7 @@ int main() {
         std::cout << "Valor do primeiro elemento do 'array', usando o índice (index): " << numeros[0] << std::endl;
         std::cout << "Valor do primeiro elemento do 'array', usando o endereço (pointer): " << *ptr << std::endl;
         // Nota: se executarmos o código várias vezes verificamos que os endereços de memória são diferentes em cada execução.
+        mudaLinha();
       
     /**
      * Aritmética com ponteiros.
@@ -124,13 +244,16 @@ int main() {
         std::cout << "Novo endereço de memória, para onde o ponteiro aponta': " << ptr << std::endl;
         std::cout << "Valor do elemento do 'array', apontado pelo novo endereço: " << *ptr << std::endl;
         // Nota: verificar que os endereços de memória são sequenciais, de 4 em 4 byte's.
+        mudaLinha();
         
         ptr--; // Descrementar o ponteiro para recuar uma posição de memória (neste caso, dentro do 'array').
         std::cout << "Novo endereço de memória, para onde o ponteiro aponta': " << ptr << std::endl;
         std::cout << "Valor do elemento do 'array', apontado pelo novo endereço: " << *ptr << std::endl;
+        mudaLinha();
 
     /** A aritmética de ponteiros pode ser aplicada em instruções mais ou menos complexas. */
         std::cout << "Valor do elemento do 'array', apontado pelo endereço atual: " << *(ptr + 2) << std::endl;
+        mudaLinha();
 
     /** Valores inteiros podem ser adicionados ou subtraídos aos ponteiros e actuam como incremento ou decremento,
      *  respectivamente, mas por um 'número' específico, ao contrário do que sucede nas operações aritméticas.
@@ -164,6 +287,5 @@ Desvantagens dos ponteiros:
     5. Incompatibilidade entre plataformas: o tamanho dos ponteiros pode variar entre diferentes arquiteturas, o que pode causar problemas de portabilidade;
     6. Overhead de gestão: a gestão manual da memória com ponteiros requer mais atenção e cuidado por parte do programador.
 */
-    meuCarimbo();
-
+separador();
 return 0; } // Bug free
