@@ -1,9 +1,5 @@
 #include <iostream>
 
-extern "C" {
-    #include "./timestamp_FF.h"
-}
-
 /**
  * Este conjunto de código mostras definições e utilização do conceito de ponteiros em C/C++.
  * 
@@ -32,7 +28,6 @@ int main() {
     * [Exemplo 01] 
     */
         std::cout << "--- Exemplo 01 --->" << std::endl;
-        mudaLinha();
         int numero = 10;
         std::cout << numero  << std::endl;
         std::cout << &numero << std::endl;
@@ -50,9 +45,8 @@ int main() {
 
     /** 
     * [Exemplo 02]
-    */  mudaLinha();
+    */ 
         std::cout << "--- Exemplo 02 --->" << std::endl;
-        mudaLinha();
         int var_ex02 = 20;
         int *ptr_ex02;
         ptr_ex02 = &var_ex02; 
@@ -62,9 +56,8 @@ int main() {
 
     /** 
     * [Exemplo 03]
-    */ mudaLinha();
+    */ 
         std::cout << "--- Exemplo 03 --->" << std::endl;
-        mudaLinha();
         char letra_ex03 = '-';		
         char *ptr_ex03;
         ptr_ex03 = &letra_ex03;
@@ -86,18 +79,16 @@ int main() {
  */
     /** 
     * [Exemplo 04]
-    */  mudaLinha();
+    */ 
         std::cout << "--- Exemplo 04 --->" << std::endl;
-        //mudaLinha();
         //int k, *p;
 		//*p = 10;
-        //std::cout << *p  << std::endl; // Atenção ao erro de 'execução' (runtime).
+        // std::cout << *p  << std::endl; // Atenção ao erro de 'execução' (runtime).
 
     /** 
     * [Exemplo 05]
-    */  mudaLinha();
+    */ 
         std::cout << "--- Exemplo 05 --->" << std::endl;
-        mudaLinha();
         int numeros[5] = {10, 20, 30, 40, 50}; // Definir e inicializar um 'array' de números inteiros.
         for (int i = 0; i < 5; ++i) {
             std::cout << numeros[i] << " ";
@@ -164,6 +155,5 @@ Desvantagens dos ponteiros:
     5. Incompatibilidade entre plataformas: o tamanho dos ponteiros pode variar entre diferentes arquiteturas, o que pode causar problemas de portabilidade;
     6. Overhead de gestão: a gestão manual da memória com ponteiros requer mais atenção e cuidado por parte do programador.
 */
-    meuCarimbo();
 
 return 0; } // Bug free
