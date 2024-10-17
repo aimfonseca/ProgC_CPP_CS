@@ -1,7 +1,6 @@
 #include <iostream> 
 #include <fstream>
 #include <string>
-#include <ctime> // Incluído para a função meuCarimbo
 
 void meuCarimbo(void);
 void mudaLinha(void);
@@ -83,7 +82,7 @@ void exibirTexto(const std::string& arquivo) {
         return;
     }
 
-    std::cout << "Conteúdo do ficheiro '" << arquivo << "':" << std::endl;
+    std::cout << "Conteudo do ficheiro '" << arquivo << "':" << std::endl;
 
     std::string linha;
     // Lê e exibe cada linha do arquivo
