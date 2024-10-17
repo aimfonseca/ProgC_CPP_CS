@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ctime> 
 
 /**
  * Este conjunto de código mostras definições e utilização do conceito de ponteiros em C/C++.
@@ -19,7 +20,40 @@
  * Na verdade, o conceito de ponteiro surgiu na linguagem Pascal para a implementação de 'listas'.
  * As variáveis do tipo ponteiro 'apontam' para o próximo elemento de uma lista. 
  */
+
+// Função para imprimir uma nova linha
+void mudaLinha() {
+    std::cout << std::endl;
+}
+
+// Função para imprimir o carimbo com a data e hora atuais
+
+void meuCarimbo() {
+    std::time_t tempo_atual = std::time(nullptr);  // Obtém o tempo atual
+    std::tm* tempo_local = std::localtime(&tempo_atual);  // Converte para a hora local
+    char data_hora[64];  // String para armazenar a data e hora
+
+    // Formata a data e hora no formato "dd-mm-yyyy hh:mm:ss"
+    std::strftime(data_hora, sizeof(data_hora), "%d-%m-%Y %H:%M:%S", tempo_local);
+
+    // Imprime o carimbo com as informações
+    std::cout << "\n[UFCD_U15] - [Ponteiros] - [Indira] - [ " << data_hora << " ]";
+    mudaLinha();  // Chama a função para pular linha
+}
+
+
+// Função para imprimir uma linha de separação com 120 asteriscos
+void separador() {
+    for (int i = 0; i < 120; i++) {
+        std::cout << "*";
+    }
+    mudaLinha();  // Pula linha após imprimir os asteriscos
+}
+
 int main() {
+    separador();
+    meuCarimbo();
+    mudaLinha();
     
     /** 
     * O operador '&' é unário e significa 'endereço de...'. Por exemplo, &codPostal quer dizer 'endereço da variável codPostal'.
@@ -31,7 +65,7 @@ int main() {
         int numero = 10;
         std::cout << numero  << std::endl;
         std::cout << &numero << std::endl;
-
+mudaLinha();
 /**
  * Vamos considerar que dispomos de um tipo de dados para representar endereços.
  * Chamamos a este tipo "tipo apontador" (Pointer Type).
@@ -53,6 +87,7 @@ int main() {
         std::cout << "Mostra o valor atual da variável 'var_ex02': " << var_ex02 << std::endl;
         std::cout << "Mostra o endereço de memória onde se encontra a variável 'var_ex02': " << ptr_ex02 << std::endl;
         std::cout << "Mostra o valor da variável 'var_ex02', apontada pelo ponteiro 'ptr_ex02': " << *ptr_ex02 << std::endl;
+        mudaLinha();
 
     /** 
     * [Exemplo 03]
@@ -68,6 +103,7 @@ int main() {
          */
         *ptr_ex03 = '+'; 
         std::cout << "Resultado do acesso ao endereço de memória da variável 'letra_ex03': " << letra_ex03 << std::endl;
+        mudaLinha();
         
 /**
  * Existem alguns erros muito comuns quando se usam ponteiros:
@@ -83,7 +119,7 @@ int main() {
         std::cout << "--- Exemplo 04 --->" << std::endl;
         //int k, *p;
 		//*p = 10;
-        // std::cout << *p  << std::endl; // Atenção ao erro de 'execução' (runtime).
+        //std::cout << *p  << std::endl; // Atenção ao erro de 'execução' (runtime).
 
     /** 
     * [Exemplo 05]
@@ -99,6 +135,7 @@ int main() {
         std::cout << "Valor do primeiro elemento do 'array', usando o índice (index): " << numeros[0] << std::endl;
         std::cout << "Valor do primeiro elemento do 'array', usando o endereço (pointer): " << *ptr << std::endl;
         // Nota: se executarmos o código várias vezes verificamos que os endereços de memória são diferentes em cada execução.
+        mudaLinha();
       
     /**
      * Aritmética com ponteiros.
@@ -115,13 +152,16 @@ int main() {
         std::cout << "Novo endereço de memória, para onde o ponteiro aponta': " << ptr << std::endl;
         std::cout << "Valor do elemento do 'array', apontado pelo novo endereço: " << *ptr << std::endl;
         // Nota: verificar que os endereços de memória são sequenciais, de 4 em 4 byte's.
+        mudaLinha();
         
         ptr--; // Descrementar o ponteiro para recuar uma posição de memória (neste caso, dentro do 'array').
         std::cout << "Novo endereço de memória, para onde o ponteiro aponta': " << ptr << std::endl;
         std::cout << "Valor do elemento do 'array', apontado pelo novo endereço: " << *ptr << std::endl;
+        mudaLinha();
 
     /** A aritmética de ponteiros pode ser aplicada em instruções mais ou menos complexas. */
         std::cout << "Valor do elemento do 'array', apontado pelo endereço atual: " << *(ptr + 2) << std::endl;
+        mudaLinha();
 
     /** Valores inteiros podem ser adicionados ou subtraídos aos ponteiros e actuam como incremento ou decremento,
      *  respectivamente, mas por um 'número' específico, ao contrário do que sucede nas operações aritméticas.
@@ -155,5 +195,5 @@ Desvantagens dos ponteiros:
     5. Incompatibilidade entre plataformas: o tamanho dos ponteiros pode variar entre diferentes arquiteturas, o que pode causar problemas de portabilidade;
     6. Overhead de gestão: a gestão manual da memória com ponteiros requer mais atenção e cuidado por parte do programador.
 */
-
+separador();
 return 0; } // Bug free
