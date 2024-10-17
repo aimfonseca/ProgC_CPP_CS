@@ -261,7 +261,7 @@ int main() {
      */
         ptr += 3; // Incrementar o ponteiro para avançar três posições (e não 3 vezes, como nas somas tradicionais).
         std::cout << "Valor do elemento do 'array', apontado pelo endereço atual: " << *ptr << std::endl;
-
+        mudaLinha();
     /** Para finalizar esta introdução aos ponteiros, devemos sempre ter em atenção as operações de incremento e/ou
      *  decremento que efetuamos. 
      *  Um uso incorreto dos valores dos ponteiros podem remeter-nos para comportamentos inesperados dos nossos programas (no que respeita ao endreçamento de memória).
