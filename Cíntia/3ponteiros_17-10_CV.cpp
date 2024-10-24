@@ -1,10 +1,4 @@
 #include <iostream>
-#include <fstream>
-#include <string>
-
-void meuCarimbo(void);
-void mudaLinha(void);
-void separador(void);
 
 /**
  * Este conjunto de código mostras definições e utilização do conceito de ponteiros em C/C++.
@@ -26,25 +20,17 @@ void separador(void);
  * As variáveis do tipo ponteiro 'apontam' para o próximo elemento de uma lista. 
  */
 int main() {
-        
-    meuCarimbo();
-    mudaLinha();
-    separador();
-    mudaLinha();
+    
     /** 
     * O operador '&' é unário e significa 'endereço de...'. Por exemplo, &codPostal quer dizer 'endereço da variável codPostal'.
     * O código abaixo ilustra um exemplo para uma variável do tipo inteiro.
     * Nota: se executarmos o código várias vezes verificamos que o endereço de memória é diferente em cada execução.
     * [Exemplo 01] 
     */
-        std::cout << "--- ##Exemplo 01 --->" << std::endl;
+        std::cout << "--- Exemplo 01 --->" << std::endl;
         int numero = 10;
         std::cout << numero  << std::endl;
         std::cout << &numero << std::endl;
-        
-    mudaLinha();
-    separador();
-    mudaLinha();
 
 /**
  * Vamos considerar que dispomos de um tipo de dados para representar endereços.
@@ -60,22 +46,18 @@ int main() {
     /** 
     * [Exemplo 02]
     */ 
-        std::cout << "--- ##Exemplo 02 --->" << std::endl;
+        std::cout << "--- Exemplo 02 --->" << std::endl;
         int var_ex02 = 20;
         int *ptr_ex02;
         ptr_ex02 = &var_ex02; 
         std::cout << "Mostra o valor atual da variável 'var_ex02': " << var_ex02 << std::endl;
         std::cout << "Mostra o endereço de memória onde se encontra a variável 'var_ex02': " << ptr_ex02 << std::endl;
         std::cout << "Mostra o valor da variável 'var_ex02', apontada pelo ponteiro 'ptr_ex02': " << *ptr_ex02 << std::endl;
-        
-    mudaLinha();
-    separador();
-    mudaLinha();
 
     /** 
     * [Exemplo 03]
     */ 
-        std::cout << "--- ##Exemplo 03 --->" << std::endl;
+        std::cout << "--- Exemplo 03 --->" << std::endl;
         char letra_ex03 = '-';		
         char *ptr_ex03;
         ptr_ex03 = &letra_ex03;
@@ -86,10 +68,6 @@ int main() {
          */
         *ptr_ex03 = '+'; 
         std::cout << "Resultado do acesso ao endereço de memória da variável 'letra_ex03': " << letra_ex03 << std::endl;
-        
-    mudaLinha();
-    separador();
-    mudaLinha();
         
 /**
  * Existem alguns erros muito comuns quando se usam ponteiros:
@@ -102,19 +80,15 @@ int main() {
     /** 
     * [Exemplo 04]
     */ 
-        std::cout << "--- ##Exemplo 04 --->" << std::endl;
-        int k, *p;
-		*p = 10;
-         std::cout << *p  << std::endl; // Atenção ao erro de 'execução' (runtime).
-        
-    mudaLinha();
-    separador();
-    mudaLinha();
+        std::cout << "--- Exemplo 04 --->" << std::endl;
+        //int k, *p;
+		//*p = 10;
+        // std::cout << *p  << std::endl; // Atenção ao erro de 'execução' (runtime).
 
     /** 
     * [Exemplo 05]
     */ 
-        std::cout << "--- ##Exemplo 05 --->" << std::endl;
+        std::cout << "--- Exemplo 05 --->" << std::endl;
         int numeros[5] = {10, 20, 30, 40, 50}; // Definir e inicializar um 'array' de números inteiros.
         for (int i = 0; i < 5; ++i) {
             std::cout << numeros[i] << " ";
@@ -125,10 +99,6 @@ int main() {
         std::cout << "Valor do primeiro elemento do 'array', usando o índice (index): " << numeros[0] << std::endl;
         std::cout << "Valor do primeiro elemento do 'array', usando o endereço (pointer): " << *ptr << std::endl;
         // Nota: se executarmos o código várias vezes verificamos que os endereços de memória são diferentes em cada execução.
-        
-    mudaLinha();
-    separador();
-    mudaLinha();
       
     /**
      * Aritmética com ponteiros.
@@ -146,20 +116,12 @@ int main() {
         std::cout << "Valor do elemento do 'array', apontado pelo novo endereço: " << *ptr << std::endl;
         // Nota: verificar que os endereços de memória são sequenciais, de 4 em 4 byte's.
         
-    mudaLinha();
-    separador();
-    mudaLinha();
-        
         ptr--; // Descrementar o ponteiro para recuar uma posição de memória (neste caso, dentro do 'array').
         std::cout << "Novo endereço de memória, para onde o ponteiro aponta': " << ptr << std::endl;
         std::cout << "Valor do elemento do 'array', apontado pelo novo endereço: " << *ptr << std::endl;
 
     /** A aritmética de ponteiros pode ser aplicada em instruções mais ou menos complexas. */
         std::cout << "Valor do elemento do 'array', apontado pelo endereço atual: " << *(ptr + 2) << std::endl;
-        
-    mudaLinha();
-    separador();
-    mudaLinha();
 
     /** Valores inteiros podem ser adicionados ou subtraídos aos ponteiros e actuam como incremento ou decremento,
      *  respectivamente, mas por um 'número' específico, ao contrário do que sucede nas operações aritméticas.
@@ -167,10 +129,6 @@ int main() {
      */
         ptr += 3; // Incrementar o ponteiro para avançar três posições (e não 3 vezes, como nas somas tradicionais).
         std::cout << "Valor do elemento do 'array', apontado pelo endereço atual: " << *ptr << std::endl;
-        
-    mudaLinha();
-    separador();
-    mudaLinha();
 
     /** Para finalizar esta introdução aos ponteiros, devemos sempre ter em atenção as operações de incremento e/ou
      *  decremento que efetuamos. 
@@ -197,35 +155,5 @@ Desvantagens dos ponteiros:
     5. Incompatibilidade entre plataformas: o tamanho dos ponteiros pode variar entre diferentes arquiteturas, o que pode causar problemas de portabilidade;
     6. Overhead de gestão: a gestão manual da memória com ponteiros requer mais atenção e cuidado por parte do programador.
 */
-    meuCarimbo();
-    mudaLinha();
-    separador();
 
 return 0; } // Bug free
-
-
-
-//Funções
-void meuCarimbo(void)
-{
-    time_t tempo_atual = time(NULL);
-    struct tm *tempo_local = localtime(&tempo_atual);
-    char data_hora[64];
-    
-    strftime(data_hora, sizeof(data_hora), "%d-%m-%Y %H:%M:%S", tempo_local);
-    printf("\n[UFCD_U15] - [Ponteiros] - [Andre Proenca] - [ %s ]", data_hora);
-    mudaLinha();
-}
-
-
-void mudaLinha(void)
-{
-    printf("\n");
-}	
-
-void separador(void)
-{
-    for (int i = 0; i < 120; i++){
-        printf("*");
-    }
-}

@@ -58,6 +58,7 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
     ".fantomasignore": "ignore",
+<<<<<<< HEAD
     "iosfwd": "cpp",
     "__bit_reference": "cpp",
     "__hash_table": "cpp",
@@ -111,5 +112,9 @@
     "variant": "cpp",
     "vector": "cpp",
     "algorithm": "cpp"
+=======
+    "EXRFS_02.C": "cpp",
+    "EXRFS_01.C": "cpp"
+>>>>>>> Indira
   }
 }
