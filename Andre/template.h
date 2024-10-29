@@ -1,4 +1,6 @@
+#include <iostream>
 
+using namespace std;
 void meuCarimbo(void)
 {
     time_t tempo_atual = time(NULL);
@@ -21,4 +23,23 @@ void separador(void)
     for (int i = 0; i < 120; i++){
         printf("*");
     }
+}
+
+void header(void){
+    separador();
+    mudaLinha();
+    meuCarimbo();
+    mudaLinha();
+    separador();
+    mudaLinha();
+}
+
+void footer(void){
+    mudaLinha();
+    separador();
+    mudaLinha();
+    meuCarimbo();
+    mudaLinha();
+    separador();
+    mudaLinha();
 }
