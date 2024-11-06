@@ -1,0 +1,2 @@
+A soma dos números positivos é: 6091
+A soma dos números negativos é: -4430

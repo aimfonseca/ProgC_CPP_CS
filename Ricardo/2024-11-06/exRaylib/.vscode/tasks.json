@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build",
+        "type": "shell",
+        "command": "gcc",
+        "args": [
+          "-o",
+          "main", // Output executable name
+          "POO-912_RAYLIB_v2_RM.c", // Source file
+          "-O2",
+          "-Wall",
+          "-I",
+          "C:/raylib/w64devkit/x86_64-w64-mingw32/include", // Include path for raylib.h
+          "-L",
+          "C:/raylib/w64devkit/x86_64-w64-mingw32/lib",     // Library path for libraylib.a
+          "-lraylib",
+          "-lopengl32",
+          "-lgdi32",
+          "-lwinmm"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "detail": "Generated task by user"
+      }
+    ]
+  }
+  
