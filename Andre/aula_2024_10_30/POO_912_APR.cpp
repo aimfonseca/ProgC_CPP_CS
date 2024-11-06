@@ -154,14 +154,45 @@ public:
 int main() {
    header();
    ColecaoDeDVDs c; // Criação de uma coleção de DVDs
-   
-   // Adição de DVDs à coleção
-   c.inserir(new DVDdeAlugar());
-   c.inserir(new DVDdeVender());
+   char opcao; // Opção do menu
+   int indice; // Índice do DVD
+
+      do {
+         cout << "\nDeseja adicionar um DVD? (s/n): " << endl;
+         cin >> opcao;
+        
+         if (opcao == 's' || opcao == 'S') {
+            cout << "Tipo de DVD:" << endl;
+            cout << "1 - DVD para Venda" << endl;
+            cout << "2 - DVD para Aluguer" << endl;
+            cout << "Escolha uma opcao: ";
+            
+            int tipo;
+            cin >> tipo;
+            
+            switch(tipo) {
+               case 1:
+                  c.inserir(new DVDdeVender());
+                  break;
+               case 2:
+                  c.inserir(new DVDdeAlugar());
+                  break;
+               default:
+                  cout << "Opcao invalida!" << endl;
+            }
+         }
+      } while (opcao == 's' || opcao == 'S');
+      mudaLinha();
+      separador();
+      mudaLinha();
 
    // Consulta de DVD por indice
-   cout << "A realizar consulta por indice: " << endl;
-   c.consultar(0);
+   cout << "Insira o indice do DVD que pretende consultar: ";
+   cin >> indice;
+   mudaLinha();
+   separador();
+   mudaLinha();
+   c.consultar(indice);
    separador();
    mudaLinha();
 
