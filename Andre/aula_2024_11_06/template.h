@@ -14,7 +14,7 @@ void meuCarimbo(void)
     char data_hora[64];
     
     strftime(data_hora, sizeof(data_hora), "%d-%m-%Y %H:%M:%S", tempo_local);
-    printf("\n[UFCD_U15] - [POO] - [Andre Proenca] - [ %s ]", data_hora);
+    printf("\n[UFCD_U15] - [Andre Proenca] - [ %s ]", data_hora);
     mudaLinha();
 }
 
