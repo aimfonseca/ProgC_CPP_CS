@@ -40,7 +40,7 @@ int main() {
         std::cout << "--- ##Exemplo 01 --->" << std::endl;
         int numero = 10;
         std::cout << numero  << std::endl;
-        std::cout << &numero << std::endl;
+        std::cout << &numero << std::endl; // o & mostra o endereço de memória
         
     mudaLinha();
     separador();
