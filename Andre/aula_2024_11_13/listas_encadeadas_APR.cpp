@@ -149,7 +149,7 @@ int main() {
     mudaLinha();
 
     // Inserir dados numa posição específica (valor 15, posição 1)
-    lista.inserirNaPosicao(15, 1);
+    lista.inserirNaPosicao(15,3);
 
     // Exibindo a lista
     cout << "Lista após a inserção em posição específica:" << endl;
