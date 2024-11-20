@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrimProgCS_APR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04002d1a4637945cff8dab461afd9142a51af5ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a3cc25018f56e5d2f720503f692651fdead0230")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrimProgCS_APR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrimProgCS_APR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
