@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\PrimProgCS_APR\\PrimProgCS_APR.csproj": {}
+    "D:\\ServidoresLocais\\GitHub\\ProgC_CPP\\Andre\\ProgC#\\aula_2024_11_20\\PrimProgCS_APR\\PrimProgCS_APR.csproj": {}
   },
   "projects": {
-    "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\PrimProgCS_APR\\PrimProgCS_APR.csproj": {
+    "D:\\ServidoresLocais\\GitHub\\ProgC_CPP\\Andre\\ProgC#\\aula_2024_11_20\\PrimProgCS_APR\\PrimProgCS_APR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\PrimProgCS_APR\\PrimProgCS_APR.csproj",
+        "projectUniqueName": "D:\\ServidoresLocais\\GitHub\\ProgC_CPP\\Andre\\ProgC#\\aula_2024_11_20\\PrimProgCS_APR\\PrimProgCS_APR.csproj",
         "projectName": "PrimProgCS_APR",
-        "projectPath": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\PrimProgCS_APR\\PrimProgCS_APR.csproj",
-        "packagesPath": "C:\\Users\\Cordyceps\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\PrimProgCS_APR\\obj\\",
+        "projectPath": "D:\\ServidoresLocais\\GitHub\\ProgC_CPP\\Andre\\ProgC#\\aula_2024_11_20\\PrimProgCS_APR\\PrimProgCS_APR.csproj",
+        "packagesPath": "C:\\Users\\António\\.nuget\\packages\\",
+        "outputPath": "D:\\ServidoresLocais\\GitHub\\ProgC_CPP\\Andre\\ProgC#\\aula_2024_11_20\\PrimProgCS_APR\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Cordyceps\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\António\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
