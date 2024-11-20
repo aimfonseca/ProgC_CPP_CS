@@ -116,7 +116,6 @@ void UpdateEnemies() {
             // Se o inimigo sai da tela pela esquerda, reposiciona … direita
             if (enemies[i].position.x < -20) {
                 enemies[i].position = (Vector2){ screenWidth + rand() % 100, rand() % (screenHeight - 40) };
-                score++;
             }
 
             // Pequena chance de disparar proj‚til
@@ -264,23 +263,23 @@ int main(void) {
             DrawText("Pressione ESC para sair do jogo", (screenWidth - textWidth) / 2, screenHeight / 2 + 100, 20, WHITE);
        
         } else {
-            DrawCircleV(player.position, 20, BLUE);
+            DrawCircleV(player.position, 15, BLUE);
 
             for (int i = 0; i < ENEMY_GROUP_SIZE; i++) {
                 if (enemies[i].active) {
-                    DrawCircleV(enemies[i].position, 20, RED);
+                    DrawCircleV(enemies[i].position, 15, RED);
                 }
             }
 
             for (int i = 0; i < MAX_PROJECTILES; i++) {
                 if (playerProjectiles[i].active) {
-                    DrawCircleV(playerProjectiles[i].position, 5, WHITE);
+                    DrawCircleV(playerProjectiles[i].position, 3, WHITE);
                 }
             }
 
             for (int i = 0; i < MAX_PROJECTILES; i++) {
                 if (enemyProjectiles[i].active) {
-                    DrawCircleV(enemyProjectiles[i].position, 5, YELLOW);
+                    DrawCircleV(enemyProjectiles[i].position, 3, YELLOW);
                 }
             }
 
