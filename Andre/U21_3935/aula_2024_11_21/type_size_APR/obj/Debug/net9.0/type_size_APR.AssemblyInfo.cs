@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("type_size_APR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4ddeb4c23c310b4cc97c2d6b6468c579dc4f163")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bf5567f2fbd1374fedc9a524782349cae401bcc")]
 [assembly: System.Reflection.AssemblyProductAttribute("type_size_APR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("type_size_APR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
