@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_21\\type_size_APR\\type_size_APR.csproj": {}
+    "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_11_21\\type_size_APR\\type_size_APR.csproj": {}
   },
   "projects": {
-    "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_21\\type_size_APR\\type_size_APR.csproj": {
+    "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_11_21\\type_size_APR\\type_size_APR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_21\\type_size_APR\\type_size_APR.csproj",
+        "projectUniqueName": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_11_21\\type_size_APR\\type_size_APR.csproj",
         "projectName": "type_size_APR",
-        "projectPath": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_21\\type_size_APR\\type_size_APR.csproj",
+        "projectPath": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_11_21\\type_size_APR\\type_size_APR.csproj",
         "packagesPath": "C:\\Users\\Cordyceps\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_21\\type_size_APR\\obj\\",
+        "outputPath": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_11_21\\type_size_APR\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cordyceps\\AppData\\Roaming\\NuGet\\NuGet.Config"
