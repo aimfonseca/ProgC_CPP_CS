@@ -1,0 +1,13 @@
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\First_Prog\bin\Debug\netcoreapp3.1\First_Prog.exe
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\First_Prog\bin\Debug\netcoreapp3.1\First_Prog.deps.json
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\First_Prog\bin\Debug\netcoreapp3.1\First_Prog.runtimeconfig.json
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\First_Prog\bin\Debug\netcoreapp3.1\First_Prog.runtimeconfig.dev.json
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\First_Prog\bin\Debug\netcoreapp3.1\First_Prog.dll
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\First_Prog\bin\Debug\netcoreapp3.1\First_Prog.pdb
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\First_Prog\obj\Debug\netcoreapp3.1\First_Prog.csprojAssemblyReference.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\First_Prog\obj\Debug\netcoreapp3.1\First_Prog.AssemblyInfoInputs.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\First_Prog\obj\Debug\netcoreapp3.1\First_Prog.AssemblyInfo.cs
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\First_Prog\obj\Debug\netcoreapp3.1\First_Prog.csproj.CoreCompileInputs.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\First_Prog\obj\Debug\netcoreapp3.1\First_Prog.dll
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\First_Prog\obj\Debug\netcoreapp3.1\First_Prog.pdb
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\First_Prog\obj\Debug\netcoreapp3.1\First_Prog.genruntimeconfig.cache
