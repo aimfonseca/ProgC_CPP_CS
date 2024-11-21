@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gf1BxXx5hDA=",
+  "dgSpecHash": "+YrBfdY+cDs=",
   "success": true,
-  "projectFilePath": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\calculadora_APR\\calculadora_APR.csproj",
+  "projectFilePath": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\Calculadora_APR\\calculadora_APR.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cordyceps\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
     "C:\\Users\\Cordyceps\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\calculadora_APR\\calculadora_APR.csproj": {}
+    "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\Calculadora_APR\\calculadora_APR.csproj": {}
   },
   "projects": {
-    "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\calculadora_APR\\calculadora_APR.csproj": {
+    "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\Calculadora_APR\\calculadora_APR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\calculadora_APR\\calculadora_APR.csproj",
+        "projectUniqueName": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\Calculadora_APR\\calculadora_APR.csproj",
         "projectName": "calculadora_APR",
-        "projectPath": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\calculadora_APR\\calculadora_APR.csproj",
+        "projectPath": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\Calculadora_APR\\calculadora_APR.csproj",
         "packagesPath": "C:\\Users\\Cordyceps\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\calculadora_APR\\obj\\",
+        "outputPath": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\Calculadora_APR\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cordyceps\\AppData\\Roaming\\NuGet\\NuGet.Config"
