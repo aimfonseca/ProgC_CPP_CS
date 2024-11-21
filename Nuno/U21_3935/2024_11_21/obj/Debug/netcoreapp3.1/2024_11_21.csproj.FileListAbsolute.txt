@@ -1,0 +1,13 @@
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\2024_11_21\bin\Debug\netcoreapp3.1\2024_11_21.exe
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\2024_11_21\bin\Debug\netcoreapp3.1\2024_11_21.deps.json
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\2024_11_21\bin\Debug\netcoreapp3.1\2024_11_21.runtimeconfig.json
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\2024_11_21\bin\Debug\netcoreapp3.1\2024_11_21.runtimeconfig.dev.json
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\2024_11_21\bin\Debug\netcoreapp3.1\2024_11_21.dll
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\2024_11_21\bin\Debug\netcoreapp3.1\2024_11_21.pdb
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\2024_11_21\obj\Debug\netcoreapp3.1\2024_11_21.csprojAssemblyReference.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\2024_11_21\obj\Debug\netcoreapp3.1\2024_11_21.AssemblyInfoInputs.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\2024_11_21\obj\Debug\netcoreapp3.1\2024_11_21.AssemblyInfo.cs
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\2024_11_21\obj\Debug\netcoreapp3.1\2024_11_21.csproj.CoreCompileInputs.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\2024_11_21\obj\Debug\netcoreapp3.1\2024_11_21.dll
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\2024_11_21\obj\Debug\netcoreapp3.1\2024_11_21.pdb
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\2024_11_21\obj\Debug\netcoreapp3.1\2024_11_21.genruntimeconfig.cache
