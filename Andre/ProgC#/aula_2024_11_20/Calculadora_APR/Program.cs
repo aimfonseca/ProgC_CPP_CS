@@ -2,10 +2,10 @@
 
 class Program{
     static void Main(){
-        int num1, num2;
-        string? operacao;
+        Carimbo.ExibirInformacoes();
 
-        Carimbo.ExibirInfo();
+        int num1, num2;
+        string operacao;
 
         // Exibindo as opções para o usuário
         Console.WriteLine("Calculadora simples em C#");

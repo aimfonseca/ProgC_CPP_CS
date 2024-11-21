@@ -1,12 +1,16 @@
 using System;
 
-class Carimbo{
-    public static void ExibirInfo(){
-        DateTime dataAtual = DateTime.Now;
-        string nome = "André Proença";        
-        Console.WriteLine("-----------------------------------");
-        Console.WriteLine($"Data e hora atual: {dataAtual}" );
+public class Carimbo
+{
+    public static void ExibirInformacoes()
+    {
+        // Exibe a data atual
+        DateTime date = DateTime.Now;
+        Console.WriteLine($"Data atual: {date}");
+
+        // Exibe o nome do autor
+        string nome = "André Proença";
         Console.WriteLine($"Autor: {nome}");
-        Console.WriteLine("-----------------------------------");
+        Console.WriteLine("--------------------------------");
     }
 }
