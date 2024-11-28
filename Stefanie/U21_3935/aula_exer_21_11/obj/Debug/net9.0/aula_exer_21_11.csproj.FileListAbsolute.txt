@@ -1,0 +1,14 @@
+C:\C_SA_CPP\C#_nov_2024\aula_exer_21_11\bin\Debug\net9.0\aula_exer_21_11.exe
+C:\C_SA_CPP\C#_nov_2024\aula_exer_21_11\bin\Debug\net9.0\aula_exer_21_11.deps.json
+C:\C_SA_CPP\C#_nov_2024\aula_exer_21_11\bin\Debug\net9.0\aula_exer_21_11.runtimeconfig.json
+C:\C_SA_CPP\C#_nov_2024\aula_exer_21_11\bin\Debug\net9.0\aula_exer_21_11.dll
+C:\C_SA_CPP\C#_nov_2024\aula_exer_21_11\bin\Debug\net9.0\aula_exer_21_11.pdb
+C:\C_SA_CPP\C#_nov_2024\aula_exer_21_11\obj\Debug\net9.0\aula_exer_21_11.GeneratedMSBuildEditorConfig.editorconfig
+C:\C_SA_CPP\C#_nov_2024\aula_exer_21_11\obj\Debug\net9.0\aula_exer_21_11.AssemblyInfoInputs.cache
+C:\C_SA_CPP\C#_nov_2024\aula_exer_21_11\obj\Debug\net9.0\aula_exer_21_11.AssemblyInfo.cs
+C:\C_SA_CPP\C#_nov_2024\aula_exer_21_11\obj\Debug\net9.0\aula_exer_21_11.csproj.CoreCompileInputs.cache
+C:\C_SA_CPP\C#_nov_2024\aula_exer_21_11\obj\Debug\net9.0\aula_exer_21_11.dll
+C:\C_SA_CPP\C#_nov_2024\aula_exer_21_11\obj\Debug\net9.0\refint\aula_exer_21_11.dll
+C:\C_SA_CPP\C#_nov_2024\aula_exer_21_11\obj\Debug\net9.0\aula_exer_21_11.pdb
+C:\C_SA_CPP\C#_nov_2024\aula_exer_21_11\obj\Debug\net9.0\aula_exer_21_11.genruntimeconfig.cache
+C:\C_SA_CPP\C#_nov_2024\aula_exer_21_11\obj\Debug\net9.0\ref\aula_exer_21_11.dll

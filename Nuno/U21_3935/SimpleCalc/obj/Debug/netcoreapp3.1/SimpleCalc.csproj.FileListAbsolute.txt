@@ -1,0 +1,13 @@
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\SimpleCalc\bin\Debug\netcoreapp3.1\SimpleCalc.exe
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\SimpleCalc\bin\Debug\netcoreapp3.1\SimpleCalc.deps.json
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\SimpleCalc\bin\Debug\netcoreapp3.1\SimpleCalc.runtimeconfig.json
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\SimpleCalc\bin\Debug\netcoreapp3.1\SimpleCalc.runtimeconfig.dev.json
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\SimpleCalc\bin\Debug\netcoreapp3.1\SimpleCalc.dll
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\SimpleCalc\bin\Debug\netcoreapp3.1\SimpleCalc.pdb
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\SimpleCalc\obj\Debug\netcoreapp3.1\SimpleCalc.csprojAssemblyReference.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\SimpleCalc\obj\Debug\netcoreapp3.1\SimpleCalc.AssemblyInfoInputs.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\SimpleCalc\obj\Debug\netcoreapp3.1\SimpleCalc.AssemblyInfo.cs
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\SimpleCalc\obj\Debug\netcoreapp3.1\SimpleCalc.csproj.CoreCompileInputs.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\SimpleCalc\obj\Debug\netcoreapp3.1\SimpleCalc.dll
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\SimpleCalc\obj\Debug\netcoreapp3.1\SimpleCalc.pdb
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\SimpleCalc\obj\Debug\netcoreapp3.1\SimpleCalc.genruntimeconfig.cache

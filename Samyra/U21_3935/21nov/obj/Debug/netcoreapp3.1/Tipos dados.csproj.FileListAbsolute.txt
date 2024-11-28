@@ -1,0 +1,13 @@
+C:\Programador de informatica\U21 - 3935\Tipos dados\obj\Debug\netcoreapp3.1\Tipos dados.csprojAssemblyReference.cache
+C:\Programador de informatica\U21 - 3935\Tipos dados\obj\Debug\netcoreapp3.1\Tipos dados.AssemblyInfoInputs.cache
+C:\Programador de informatica\U21 - 3935\Tipos dados\obj\Debug\netcoreapp3.1\Tipos dados.AssemblyInfo.cs
+C:\Programador de informatica\U21 - 3935\Tipos dados\obj\Debug\netcoreapp3.1\Tipos dados.csproj.CoreCompileInputs.cache
+C:\Programador de informatica\U21 - 3935\Tipos dados\bin\Debug\netcoreapp3.1\Tipos dados.exe
+C:\Programador de informatica\U21 - 3935\Tipos dados\bin\Debug\netcoreapp3.1\Tipos dados.deps.json
+C:\Programador de informatica\U21 - 3935\Tipos dados\bin\Debug\netcoreapp3.1\Tipos dados.runtimeconfig.json
+C:\Programador de informatica\U21 - 3935\Tipos dados\bin\Debug\netcoreapp3.1\Tipos dados.runtimeconfig.dev.json
+C:\Programador de informatica\U21 - 3935\Tipos dados\bin\Debug\netcoreapp3.1\Tipos dados.dll
+C:\Programador de informatica\U21 - 3935\Tipos dados\bin\Debug\netcoreapp3.1\Tipos dados.pdb
+C:\Programador de informatica\U21 - 3935\Tipos dados\obj\Debug\netcoreapp3.1\Tipos dados.dll
+C:\Programador de informatica\U21 - 3935\Tipos dados\obj\Debug\netcoreapp3.1\Tipos dados.pdb
+C:\Programador de informatica\U21 - 3935\Tipos dados\obj\Debug\netcoreapp3.1\Tipos dados.genruntimeconfig.cache

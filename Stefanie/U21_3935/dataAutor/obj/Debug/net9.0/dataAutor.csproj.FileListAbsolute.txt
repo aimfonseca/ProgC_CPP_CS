@@ -1,0 +1,14 @@
+C:\C_SA_CPP\C#_nov_2024\dataAutor\bin\Debug\net9.0\dataAutor.exe
+C:\C_SA_CPP\C#_nov_2024\dataAutor\bin\Debug\net9.0\dataAutor.deps.json
+C:\C_SA_CPP\C#_nov_2024\dataAutor\bin\Debug\net9.0\dataAutor.runtimeconfig.json
+C:\C_SA_CPP\C#_nov_2024\dataAutor\bin\Debug\net9.0\dataAutor.dll
+C:\C_SA_CPP\C#_nov_2024\dataAutor\bin\Debug\net9.0\dataAutor.pdb
+C:\C_SA_CPP\C#_nov_2024\dataAutor\obj\Debug\net9.0\dataAutor.GeneratedMSBuildEditorConfig.editorconfig
+C:\C_SA_CPP\C#_nov_2024\dataAutor\obj\Debug\net9.0\dataAutor.AssemblyInfoInputs.cache
+C:\C_SA_CPP\C#_nov_2024\dataAutor\obj\Debug\net9.0\dataAutor.AssemblyInfo.cs
+C:\C_SA_CPP\C#_nov_2024\dataAutor\obj\Debug\net9.0\dataAutor.csproj.CoreCompileInputs.cache
+C:\C_SA_CPP\C#_nov_2024\dataAutor\obj\Debug\net9.0\dataAutor.dll
+C:\C_SA_CPP\C#_nov_2024\dataAutor\obj\Debug\net9.0\refint\dataAutor.dll
+C:\C_SA_CPP\C#_nov_2024\dataAutor\obj\Debug\net9.0\dataAutor.pdb
+C:\C_SA_CPP\C#_nov_2024\dataAutor\obj\Debug\net9.0\dataAutor.genruntimeconfig.cache
+C:\C_SA_CPP\C#_nov_2024\dataAutor\obj\Debug\net9.0\ref\dataAutor.dll
