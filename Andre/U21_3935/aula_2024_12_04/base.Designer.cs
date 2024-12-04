@@ -56,6 +56,15 @@ namespace WinFormsApp
             this.Button33 = new System.Windows.Forms.Button();
             this.Button34 = new System.Windows.Forms.Button();
             this.Button35 = new System.Windows.Forms.Button();
+            this.Button36 = new System.Windows.Forms.Button();
+            this.Button37 = new System.Windows.Forms.Button();
+            this.Button38 = new System.Windows.Forms.Button();
+            this.Button39 = new System.Windows.Forms.Button();
+            this.Button40 = new System.Windows.Forms.Button();
+            this.Button41 = new System.Windows.Forms.Button();
+            this.Button42 = new System.Windows.Forms.Button();
+            this.Button43 = new System.Windows.Forms.Button();
+            this.Button44 = new System.Windows.Forms.Button();
             this.PnlTitle.SuspendLayout();
             this.PnlHistorico.SuspendLayout();
             this.Panel10.SuspendLayout();
@@ -71,7 +80,7 @@ namespace WinFormsApp
             this.PnlTitle.BackColor = System.Drawing.Color.FromArgb(32, 32, 32);
             this.PnlTitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.PnlTitle.ForeColor = System.Drawing.Color.White;
-            this.PnlTitle.Size = new System.Drawing.Size(365,40);
+            this.PnlTitle.Size = new System.Drawing.Size(364,40);
             this.PnlTitle.TabIndex = 1;
             //
             // PnlHistorico
@@ -82,8 +91,8 @@ namespace WinFormsApp
             this.PnlHistorico.BackColor = System.Drawing.Color.FromArgb(32, 32, 32);
             this.PnlHistorico.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PnlHistorico.ForeColor = System.Drawing.Color.White;
-            this.PnlHistorico.Location = new System.Drawing.Point(0,565);
-            this.PnlHistorico.Size = new System.Drawing.Size(365,5);
+            this.PnlHistorico.Location = new System.Drawing.Point(0,563);
+            this.PnlHistorico.Size = new System.Drawing.Size(364,5);
             this.PnlHistorico.TabIndex = 2;
             //
             // BtnFechar
@@ -91,7 +100,7 @@ namespace WinFormsApp
             this.BtnFechar.BackColor = System.Drawing.Color.FromArgb(32, 32, 32);
             this.BtnFechar.Dock = System.Windows.Forms.DockStyle.Right;
             this.BtnFechar.ForeColor = System.Drawing.Color.White;
-            this.BtnFechar.Location = new System.Drawing.Point(309,0);
+            this.BtnFechar.Location = new System.Drawing.Point(308,0);
             this.BtnFechar.Size = new System.Drawing.Size(56,40);
             this.BtnFechar.TabIndex = 3;
             //
@@ -187,7 +196,7 @@ namespace WinFormsApp
             this.RichTextBox15.Modified =  true;
             this.RichTextBox15.SelectionStart = 8;
             this.RichTextBox15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.RichTextBox15.Size = new System.Drawing.Size(365,0);
+            this.RichTextBox15.Size = new System.Drawing.Size(364,0);
             this.RichTextBox15.TabIndex = 15;
             //
             // Button17
@@ -196,7 +205,7 @@ namespace WinFormsApp
             this.Button17.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.Button17.ForeColor = System.Drawing.Color.White;
             this.Button17.Location = new System.Drawing.Point(0,-35);
-            this.Button17.Size = new System.Drawing.Size(365,40);
+            this.Button17.Size = new System.Drawing.Size(364,40);
             this.Button17.TabIndex = 17;
             //
             // BtnNegacao
@@ -242,7 +251,8 @@ namespace WinFormsApp
             // Button24
             //
             this.Button24.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
-            this.Button24.Text =  "Button24";
+            this.Button24.Text =  "1";
+            this.Button24.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button24.ForeColor = System.Drawing.Color.White;
             this.Button24.Location = new System.Drawing.Point(8,459);
             this.Button24.Size = new System.Drawing.Size(85,50);
@@ -251,7 +261,8 @@ namespace WinFormsApp
             // Button25
             //
             this.Button25.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
-            this.Button25.Text =  "Button25";
+            this.Button25.Text =  "2";
+            this.Button25.Font = new System.Drawing.Font("Segoe UI", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button25.ForeColor = System.Drawing.Color.White;
             this.Button25.Location = new System.Drawing.Point(96,459);
             this.Button25.Size = new System.Drawing.Size(85,50);
@@ -260,7 +271,8 @@ namespace WinFormsApp
             // Button26
             //
             this.Button26.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
-            this.Button26.Text =  "Button26";
+            this.Button26.Text =  "3";
+            this.Button26.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button26.ForeColor = System.Drawing.Color.White;
             this.Button26.Location = new System.Drawing.Point(184,459);
             this.Button26.Size = new System.Drawing.Size(85,50);
@@ -268,16 +280,19 @@ namespace WinFormsApp
             //
             // Button27
             //
-            this.Button27.BackColor = System.Drawing.Color.FromArgb(32, 32, 32);
-            this.Button27.Text =  "Button27";
+            this.Button27.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
+            this.Button27.Text =  "+";
+            this.Button27.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button27.ForeColor = System.Drawing.Color.White;
-            this.Button27.Location = new System.Drawing.Point(280,472);
+            this.Button27.Location = new System.Drawing.Point(272,459);
+            this.Button27.Size = new System.Drawing.Size(85,50);
             this.Button27.TabIndex = 27;
             //
             // Button29
             //
             this.Button29.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
-            this.Button29.Text =  "Button29";
+            this.Button29.Text =  "4";
+            this.Button29.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button29.ForeColor = System.Drawing.Color.White;
             this.Button29.Location = new System.Drawing.Point(8,406);
             this.Button29.Size = new System.Drawing.Size(85,50);
@@ -286,7 +301,8 @@ namespace WinFormsApp
             // Button30
             //
             this.Button30.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
-            this.Button30.Text =  "Button30";
+            this.Button30.Text =  "5";
+            this.Button30.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button30.ForeColor = System.Drawing.Color.White;
             this.Button30.Location = new System.Drawing.Point(96,406);
             this.Button30.Size = new System.Drawing.Size(85,50);
@@ -295,7 +311,8 @@ namespace WinFormsApp
             // Button31
             //
             this.Button31.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
-            this.Button31.Text =  "Button31";
+            this.Button31.Text =  "6";
+            this.Button31.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button31.ForeColor = System.Drawing.Color.White;
             this.Button31.Location = new System.Drawing.Point(184,406);
             this.Button31.Size = new System.Drawing.Size(85,50);
@@ -303,16 +320,19 @@ namespace WinFormsApp
             //
             // Button32
             //
-            this.Button32.BackColor = System.Drawing.Color.FromArgb(32, 32, 32);
-            this.Button32.Text =  "Button32";
+            this.Button32.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
+            this.Button32.Text =  "-";
+            this.Button32.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button32.ForeColor = System.Drawing.Color.White;
-            this.Button32.Location = new System.Drawing.Point(276,436);
+            this.Button32.Location = new System.Drawing.Point(272,406);
+            this.Button32.Size = new System.Drawing.Size(85,50);
             this.Button32.TabIndex = 32;
             //
             // Button33
             //
             this.Button33.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
-            this.Button33.Text =  "Button33";
+            this.Button33.Text =  "7";
+            this.Button33.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button33.ForeColor = System.Drawing.Color.White;
             this.Button33.Location = new System.Drawing.Point(8,353);
             this.Button33.Size = new System.Drawing.Size(85,50);
@@ -321,7 +341,8 @@ namespace WinFormsApp
             // Button34
             //
             this.Button34.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
-            this.Button34.Text =  "Button34";
+            this.Button34.Text =  "8";
+            this.Button34.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button34.ForeColor = System.Drawing.Color.White;
             this.Button34.Location = new System.Drawing.Point(96,353);
             this.Button34.Size = new System.Drawing.Size(85,50);
@@ -330,17 +351,108 @@ namespace WinFormsApp
             // Button35
             //
             this.Button35.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
-            this.Button35.Text =  "Button35";
+            this.Button35.Text =  "9";
+            this.Button35.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button35.ForeColor = System.Drawing.Color.White;
             this.Button35.Location = new System.Drawing.Point(184,353);
             this.Button35.Size = new System.Drawing.Size(85,50);
             this.Button35.TabIndex = 35;
+            //
+            // Button36
+            //
+            this.Button36.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
+            this.Button36.Text =  "x";
+            this.Button36.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button36.ForeColor = System.Drawing.Color.White;
+            this.Button36.Location = new System.Drawing.Point(272,353);
+            this.Button36.Size = new System.Drawing.Size(85,50);
+            this.Button36.TabIndex = 36;
+            //
+            // Button37
+            //
+            this.Button37.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
+            this.Button37.Text =  "¹⁄x";
+            this.Button37.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button37.ForeColor = System.Drawing.Color.White;
+            this.Button37.Location = new System.Drawing.Point(8,300);
+            this.Button37.Size = new System.Drawing.Size(85,50);
+            this.Button37.TabIndex = 37;
+            //
+            // Button38
+            //
+            this.Button38.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
+            this.Button38.Text =  "x²";
+            this.Button38.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button38.ForeColor = System.Drawing.Color.White;
+            this.Button38.Location = new System.Drawing.Point(96,300);
+            this.Button38.Size = new System.Drawing.Size(85,50);
+            this.Button38.TabIndex = 38;
+            //
+            // Button39
+            //
+            this.Button39.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
+            this.Button39.Text =  "√";
+            this.Button39.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button39.ForeColor = System.Drawing.Color.White;
+            this.Button39.Location = new System.Drawing.Point(184,300);
+            this.Button39.Size = new System.Drawing.Size(85,50);
+            this.Button39.TabIndex = 39;
+            //
+            // Button40
+            //
+            this.Button40.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
+            this.Button40.Text =  "÷";
+            this.Button40.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button40.ForeColor = System.Drawing.Color.White;
+            this.Button40.Location = new System.Drawing.Point(272,300);
+            this.Button40.Size = new System.Drawing.Size(85,50);
+            this.Button40.TabIndex = 40;
+            //
+            // Button41
+            //
+            this.Button41.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
+            this.Button41.Text =  "%";
+            this.Button41.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button41.ForeColor = System.Drawing.Color.White;
+            this.Button41.Location = new System.Drawing.Point(8,247);
+            this.Button41.Size = new System.Drawing.Size(85,50);
+            this.Button41.TabIndex = 41;
+            //
+            // Button42
+            //
+            this.Button42.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
+            this.Button42.Text =  "CE";
+            this.Button42.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button42.ForeColor = System.Drawing.Color.White;
+            this.Button42.Location = new System.Drawing.Point(96,247);
+            this.Button42.Size = new System.Drawing.Size(85,50);
+            this.Button42.TabIndex = 42;
+            //
+            // Button43
+            //
+            this.Button43.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
+            this.Button43.Text =  "C";
+            this.Button43.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button43.ForeColor = System.Drawing.Color.White;
+            this.Button43.Location = new System.Drawing.Point(184,247);
+            this.Button43.Size = new System.Drawing.Size(85,50);
+            this.Button43.TabIndex = 43;
+            //
+            // Button44
+            //
+            this.Button44.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
+            this.Button44.Text =  "⌫";
+            this.Button44.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button44.ForeColor = System.Drawing.Color.White;
+            this.Button44.Location = new System.Drawing.Point(272,247);
+            this.Button44.Size = new System.Drawing.Size(85,50);
+            this.Button44.TabIndex = 44;
          //
          // form
          //
             this.BackColor = System.Drawing.Color.FromArgb(32, 32, 32);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Size = new System.Drawing.Size(365,570);
+            this.Size = new System.Drawing.Size(364,568);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text =  "Calculadora";
             this.ForeColor = System.Drawing.Color.White;
@@ -364,6 +476,15 @@ namespace WinFormsApp
             this.Controls.Add(this.Button33);
             this.Controls.Add(this.Button34);
             this.Controls.Add(this.Button35);
+            this.Controls.Add(this.Button36);
+            this.Controls.Add(this.Button37);
+            this.Controls.Add(this.Button38);
+            this.Controls.Add(this.Button39);
+            this.Controls.Add(this.Button40);
+            this.Controls.Add(this.Button41);
+            this.Controls.Add(this.Button42);
+            this.Controls.Add(this.Button43);
+            this.Controls.Add(this.Button44);
             this.PnlTitle.ResumeLayout(false);
             this.PnlHistorico.ResumeLayout(false);
             this.Panel10.ResumeLayout(false);
@@ -400,6 +521,15 @@ namespace WinFormsApp
         private System.Windows.Forms.Button Button33;
         private System.Windows.Forms.Button Button34;
         private System.Windows.Forms.Button Button35;
+        private System.Windows.Forms.Button Button36;
+        private System.Windows.Forms.Button Button37;
+        private System.Windows.Forms.Button Button38;
+        private System.Windows.Forms.Button Button39;
+        private System.Windows.Forms.Button Button40;
+        private System.Windows.Forms.Button Button41;
+        private System.Windows.Forms.Button Button42;
+        private System.Windows.Forms.Button Button43;
+        private System.Windows.Forms.Button Button44;
     }
 }
 
