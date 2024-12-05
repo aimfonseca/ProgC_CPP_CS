@@ -1,5 +1,4 @@
 ﻿namespace Calculadora;
-{
     partial class Form1
     {
         /// <summary>
@@ -232,7 +231,7 @@
             //
             this.Button22.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
             this.Button22.Text =  ",";
-            this.Button22.Font = new System.Drawing.Font("Gadugi", 14,25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button22.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button22.ForeColor = System.Drawing.Color.White;
             this.Button22.Location = new System.Drawing.Point(184,512);
             this.Button22.Size = new System.Drawing.Size(85,50);
@@ -242,7 +241,7 @@
             //
             this.Button23.BackColor = System.Drawing.Color.FromArgb(102, 204, 255);
             this.Button23.Text =  "=";
-            this.Button23.Font = new System.Drawing.Font("Gadugi", 14,25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button23.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button23.ForeColor = System.Drawing.Color.White;
             this.Button23.Location = new System.Drawing.Point(272,512);
             this.Button23.Size = new System.Drawing.Size(85,50);
@@ -252,7 +251,7 @@
             //
             this.Button24.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
             this.Button24.Text =  "1";
-            this.Button24.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button24.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button24.ForeColor = System.Drawing.Color.White;
             this.Button24.Location = new System.Drawing.Point(8,459);
             this.Button24.Size = new System.Drawing.Size(85,50);
@@ -262,7 +261,7 @@
             //
             this.Button25.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
             this.Button25.Text =  "2";
-            this.Button25.Font = new System.Drawing.Font("Segoe UI", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button25.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button25.ForeColor = System.Drawing.Color.White;
             this.Button25.Location = new System.Drawing.Point(96,459);
             this.Button25.Size = new System.Drawing.Size(85,50);
@@ -272,7 +271,7 @@
             //
             this.Button26.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
             this.Button26.Text =  "3";
-            this.Button26.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button26.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button26.ForeColor = System.Drawing.Color.White;
             this.Button26.Location = new System.Drawing.Point(184,459);
             this.Button26.Size = new System.Drawing.Size(85,50);
@@ -282,7 +281,7 @@
             //
             this.Button27.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
             this.Button27.Text =  "+";
-            this.Button27.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button27.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button27.ForeColor = System.Drawing.Color.White;
             this.Button27.Location = new System.Drawing.Point(272,459);
             this.Button27.Size = new System.Drawing.Size(85,50);
@@ -292,7 +291,7 @@
             //
             this.Button29.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
             this.Button29.Text =  "4";
-            this.Button29.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button29.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button29.ForeColor = System.Drawing.Color.White;
             this.Button29.Location = new System.Drawing.Point(8,406);
             this.Button29.Size = new System.Drawing.Size(85,50);
@@ -302,7 +301,7 @@
             //
             this.Button30.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
             this.Button30.Text =  "5";
-            this.Button30.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button30.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button30.ForeColor = System.Drawing.Color.White;
             this.Button30.Location = new System.Drawing.Point(96,406);
             this.Button30.Size = new System.Drawing.Size(85,50);
@@ -312,7 +311,7 @@
             //
             this.Button31.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
             this.Button31.Text =  "6";
-            this.Button31.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button31.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button31.ForeColor = System.Drawing.Color.White;
             this.Button31.Location = new System.Drawing.Point(184,406);
             this.Button31.Size = new System.Drawing.Size(85,50);
@@ -322,7 +321,7 @@
             //
             this.Button32.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
             this.Button32.Text =  "-";
-            this.Button32.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button32.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button32.ForeColor = System.Drawing.Color.White;
             this.Button32.Location = new System.Drawing.Point(272,406);
             this.Button32.Size = new System.Drawing.Size(85,50);
@@ -332,7 +331,7 @@
             //
             this.Button33.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
             this.Button33.Text =  "7";
-            this.Button33.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button33.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button33.ForeColor = System.Drawing.Color.White;
             this.Button33.Location = new System.Drawing.Point(8,353);
             this.Button33.Size = new System.Drawing.Size(85,50);
@@ -342,7 +341,7 @@
             //
             this.Button34.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
             this.Button34.Text =  "8";
-            this.Button34.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button34.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button34.ForeColor = System.Drawing.Color.White;
             this.Button34.Location = new System.Drawing.Point(96,353);
             this.Button34.Size = new System.Drawing.Size(85,50);
@@ -352,7 +351,7 @@
             //
             this.Button35.BackColor = System.Drawing.Color.FromArgb(82, 82, 82);
             this.Button35.Text =  "9";
-            this.Button35.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button35.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button35.ForeColor = System.Drawing.Color.White;
             this.Button35.Location = new System.Drawing.Point(184,353);
             this.Button35.Size = new System.Drawing.Size(85,50);
@@ -362,7 +361,7 @@
             //
             this.Button36.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
             this.Button36.Text =  "x";
-            this.Button36.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button36.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button36.ForeColor = System.Drawing.Color.White;
             this.Button36.Location = new System.Drawing.Point(272,353);
             this.Button36.Size = new System.Drawing.Size(85,50);
@@ -372,7 +371,7 @@
             //
             this.Button37.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
             this.Button37.Text =  "¹⁄x";
-            this.Button37.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button37.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button37.ForeColor = System.Drawing.Color.White;
             this.Button37.Location = new System.Drawing.Point(8,300);
             this.Button37.Size = new System.Drawing.Size(85,50);
@@ -382,7 +381,7 @@
             //
             this.Button38.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
             this.Button38.Text =  "x²";
-            this.Button38.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button38.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button38.ForeColor = System.Drawing.Color.White;
             this.Button38.Location = new System.Drawing.Point(96,300);
             this.Button38.Size = new System.Drawing.Size(85,50);
@@ -392,7 +391,7 @@
             //
             this.Button39.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
             this.Button39.Text =  "√";
-            this.Button39.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button39.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button39.ForeColor = System.Drawing.Color.White;
             this.Button39.Location = new System.Drawing.Point(184,300);
             this.Button39.Size = new System.Drawing.Size(85,50);
@@ -402,7 +401,7 @@
             //
             this.Button40.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
             this.Button40.Text =  "÷";
-            this.Button40.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button40.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button40.ForeColor = System.Drawing.Color.White;
             this.Button40.Location = new System.Drawing.Point(272,300);
             this.Button40.Size = new System.Drawing.Size(85,50);
@@ -412,7 +411,7 @@
             //
             this.Button41.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
             this.Button41.Text =  "%";
-            this.Button41.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button41.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button41.ForeColor = System.Drawing.Color.White;
             this.Button41.Location = new System.Drawing.Point(8,247);
             this.Button41.Size = new System.Drawing.Size(85,50);
@@ -422,7 +421,7 @@
             //
             this.Button42.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
             this.Button42.Text =  "CE";
-            this.Button42.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button42.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button42.ForeColor = System.Drawing.Color.White;
             this.Button42.Location = new System.Drawing.Point(96,247);
             this.Button42.Size = new System.Drawing.Size(85,50);
@@ -432,7 +431,7 @@
             //
             this.Button43.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
             this.Button43.Text =  "C";
-            this.Button43.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button43.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button43.ForeColor = System.Drawing.Color.White;
             this.Button43.Location = new System.Drawing.Point(184,247);
             this.Button43.Size = new System.Drawing.Size(85,50);
@@ -442,7 +441,7 @@
             //
             this.Button44.BackColor = System.Drawing.Color.FromArgb(62, 62, 62);
             this.Button44.Text =  "⌫";
-            this.Button44.Font = new System.Drawing.Font("Gadugi", 15,75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button44.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button44.ForeColor = System.Drawing.Color.White;
             this.Button44.Location = new System.Drawing.Point(272,247);
             this.Button44.Size = new System.Drawing.Size(85,50);
@@ -453,7 +452,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(32, 32, 32);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Size = new System.Drawing.Size(364,568);
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            // this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text =  "Calculadora";
             this.ForeColor = System.Drawing.Color.White;
             this.Controls.Add(this.PnlTitle);
@@ -531,5 +530,4 @@
         private System.Windows.Forms.Button Button43;
         private System.Windows.Forms.Button Button44;
     }
-}
 
