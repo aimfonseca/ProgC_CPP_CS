@@ -1,0 +1,16 @@
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\bin\Debug\net8.0-windows\MatchingGame.exe
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\bin\Debug\net8.0-windows\MatchingGame.deps.json
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\bin\Debug\net8.0-windows\MatchingGame.runtimeconfig.json
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\bin\Debug\net8.0-windows\MatchingGame.dll
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\bin\Debug\net8.0-windows\MatchingGame.pdb
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.Form1.resources
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.csproj.GenerateResource.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.AssemblyInfoInputs.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.AssemblyInfo.cs
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.csproj.CoreCompileInputs.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.dll
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\refint\MatchingGame.dll
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.pdb
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.genruntimeconfig.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\ref\MatchingGame.dll
