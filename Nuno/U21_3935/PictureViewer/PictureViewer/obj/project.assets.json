@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Pepolim\\.nuget\\packages\\": {},
+    "C:\\Users\\pinkf\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Formacao_Prog_inf_2024_2025\\Programação_em_C_Sharp_3935\\PictureViewer\\PictureViewer\\PictureViewer.csproj",
+      "projectUniqueName": "C:\\Users\\pinkf\\Documents\\GitReposit\\ProgC_CPP\\Nuno\\U21_3935\\PictureViewer\\PictureViewer\\PictureViewer.csproj",
       "projectName": "PictureViewer",
-      "projectPath": "D:\\Formacao_Prog_inf_2024_2025\\Programação_em_C_Sharp_3935\\PictureViewer\\PictureViewer\\PictureViewer.csproj",
-      "packagesPath": "C:\\Users\\Pepolim\\.nuget\\packages\\",
-      "outputPath": "D:\\Formacao_Prog_inf_2024_2025\\Programação_em_C_Sharp_3935\\PictureViewer\\PictureViewer\\obj\\",
+      "projectPath": "C:\\Users\\pinkf\\Documents\\GitReposit\\ProgC_CPP\\Nuno\\U21_3935\\PictureViewer\\PictureViewer\\PictureViewer.csproj",
+      "packagesPath": "C:\\Users\\pinkf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pinkf\\Documents\\GitReposit\\ProgC_CPP\\Nuno\\U21_3935\\PictureViewer\\PictureViewer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pepolim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pinkf\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -49,7 +49,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -75,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

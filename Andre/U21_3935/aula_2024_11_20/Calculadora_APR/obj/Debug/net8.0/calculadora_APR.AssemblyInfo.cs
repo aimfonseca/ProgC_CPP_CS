@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("calculadora_APR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+603d0e8819d50f85afed73f00f52b59f85ba2aac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bc29b5ecffe33b228e04863a2ccc2648b0ba5c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("calculadora_APR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("calculadora_APR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

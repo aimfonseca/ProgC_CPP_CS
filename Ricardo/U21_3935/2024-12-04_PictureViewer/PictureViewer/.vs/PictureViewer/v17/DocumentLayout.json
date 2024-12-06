@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Csharp\\PictureViewer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1374DC66-FC13-49B7-9EA4-52F2011D4C2E}|PictureViewer.csproj|c:\\csharp\\pictureviewer\\pictureviewerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1374DC66-FC13-49B7-9EA4-52F2011D4C2E}|PictureViewer.csproj|solutionrelative:pictureviewerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1374DC66-FC13-49B7-9EA4-52F2011D4C2E}|PictureViewer.csproj|c:\\csharp\\pictureviewer\\pictureviewerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1374DC66-FC13-49B7-9EA4-52F2011D4C2E}|PictureViewer.csproj|solutionrelative:pictureviewerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PictureViewerForm.cs",
+              "DocumentMoniker": "C:\\Csharp\\PictureViewer\\PictureViewerForm.cs",
+              "RelativeDocumentMoniker": "PictureViewerForm.cs",
+              "ToolTip": "C:\\Csharp\\PictureViewer\\PictureViewerForm.cs",
+              "RelativeToolTip": "PictureViewerForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:22:59.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PictureViewerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Csharp\\PictureViewer\\PictureViewerForm.cs",
+              "RelativeDocumentMoniker": "PictureViewerForm.cs",
+              "ToolTip": "C:\\Csharp\\PictureViewer\\PictureViewerForm.cs [Design]",
+              "RelativeToolTip": "PictureViewerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:23:37.528Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

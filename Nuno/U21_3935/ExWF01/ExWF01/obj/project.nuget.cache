@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2tvpjIMFwV4=",
+  "dgSpecHash": "OmZfoewdpe8=",
   "success": true,
-  "projectFilePath": "D:\\Formacao_Prog_inf_2024_2025\\Programação_em_C_Sharp_3935\\ExWF01\\ExWF01\\ExWF01.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\pinkf\\Documents\\GitReposit\\ProgC_CPP\\Nuno\\U21_3935\\ExWF01\\ExWF01\\ExWF01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pinkf\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\pinkf\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\pinkf\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\pinkf\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }
