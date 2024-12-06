@@ -1,0 +1,17 @@
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\bin\Debug\net6.0-windows\Quizz.exe
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\bin\Debug\net6.0-windows\Quizz.deps.json
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\bin\Debug\net6.0-windows\Quizz.runtimeconfig.json
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\bin\Debug\net6.0-windows\Quizz.dll
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\bin\Debug\net6.0-windows\Quizz.pdb
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\obj\Debug\net6.0-windows\Quizz.Form1.resources
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\obj\Debug\net6.0-windows\Quizz.csproj.GenerateResource.cache
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\obj\Debug\net6.0-windows\Quizz.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\obj\Debug\net6.0-windows\Quizz.AssemblyInfoInputs.cache
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\obj\Debug\net6.0-windows\Quizz.AssemblyInfo.cs
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\obj\Debug\net6.0-windows\Quizz.csproj.CoreCompileInputs.cache
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\obj\Debug\net6.0-windows\Quizz.sourcelink.json
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\obj\Debug\net6.0-windows\Quizz.dll
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\obj\Debug\net6.0-windows\refint\Quizz.dll
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\obj\Debug\net6.0-windows\Quizz.pdb
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\obj\Debug\net6.0-windows\Quizz.genruntimeconfig.cache
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\obj\Debug\net6.0-windows\ref\Quizz.dll
