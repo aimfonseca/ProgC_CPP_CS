@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "06/FbkDADOs=",
+  "dgSpecHash": "RZ1aZLHwD/s=",
   "success": true,
-  "projectFilePath": "D:\\GitHub_Repository_AP\\ProgC_CPP_colab\\Andre\\ProgC#\\aula_2024_11_20\\PrimProgCS_APR\\PrimProgCS_APR.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Cordyceps\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
-    "C:\\Users\\Cordyceps\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
-    "C:\\Users\\Cordyceps\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
-    "C:\\Users\\Cordyceps\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.11\\microsoft.netcore.app.host.win-x64.8.0.11.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\pinkf\\Documents\\GitReposit\\ProgC_CPP\\Andre\\U21_3935\\aula_2024_11_20\\PrimProgCS_APR\\PrimProgCS_APR.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

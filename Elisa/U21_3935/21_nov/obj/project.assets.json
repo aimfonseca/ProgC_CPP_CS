@@ -8,25 +8,31 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/elisadrummond/.nuget/packages/": {}
+    "C:\\Users\\pinkf\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/elisadrummond/RiderProjects/21_nov/21_nov.csproj",
+      "projectUniqueName": "C:\\Users\\pinkf\\Documents\\GitReposit\\ProgC_CPP\\Elisa\\U21_3935\\21_nov\\21_nov.csproj",
       "projectName": "21_nov",
-      "projectPath": "/Users/elisadrummond/RiderProjects/21_nov/21_nov.csproj",
-      "packagesPath": "/Users/elisadrummond/.nuget/packages/",
-      "outputPath": "/Users/elisadrummond/RiderProjects/21_nov/obj/",
+      "projectPath": "C:\\Users\\pinkf\\Documents\\GitReposit\\ProgC_CPP\\Elisa\\U21_3935\\21_nov\\21_nov.csproj",
+      "packagesPath": "C:\\Users\\pinkf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pinkf\\Documents\\GitReposit\\ProgC_CPP\\Elisa\\U21_3935\\21_nov\\obj\\",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/elisadrummond/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\pinkf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -43,8 +49,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      }
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -65,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/elisadrummond/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

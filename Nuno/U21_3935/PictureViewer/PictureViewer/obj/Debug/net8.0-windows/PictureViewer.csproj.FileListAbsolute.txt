@@ -1,0 +1,17 @@
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\bin\Debug\net8.0-windows\PictureViewer.exe
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\bin\Debug\net8.0-windows\PictureViewer.deps.json
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\bin\Debug\net8.0-windows\PictureViewer.runtimeconfig.json
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\bin\Debug\net8.0-windows\PictureViewer.dll
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\bin\Debug\net8.0-windows\PictureViewer.pdb
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\obj\Debug\net8.0-windows\PictureViewer.Form1.resources
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\obj\Debug\net8.0-windows\PictureViewer.csproj.GenerateResource.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\obj\Debug\net8.0-windows\PictureViewer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\obj\Debug\net8.0-windows\PictureViewer.AssemblyInfoInputs.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\obj\Debug\net8.0-windows\PictureViewer.AssemblyInfo.cs
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\obj\Debug\net8.0-windows\PictureViewer.csproj.CoreCompileInputs.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\obj\Debug\net8.0-windows\PictureViewer.dll
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\obj\Debug\net8.0-windows\refint\PictureViewer.dll
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\obj\Debug\net8.0-windows\PictureViewer.pdb
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\obj\Debug\net8.0-windows\PictureViewer.genruntimeconfig.cache
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\obj\Debug\net8.0-windows\ref\PictureViewer.dll
+D:\Formacao_Prog_inf_2024_2025\Programação_em_C_Sharp_3935\PictureViewer\PictureViewer\obj\Debug\net8.0-windows\PictureViewer.Properties.Resources.resources

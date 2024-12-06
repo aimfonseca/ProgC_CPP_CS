@@ -1,0 +1,10 @@
+C:\Users\stefa\source\repos\Picture_Viewer1\bin\Debug\Picture_Viewer1.exe.config
+C:\Users\stefa\source\repos\Picture_Viewer1\bin\Debug\Picture_Viewer1.exe
+C:\Users\stefa\source\repos\Picture_Viewer1\bin\Debug\Picture_Viewer1.pdb
+C:\Users\stefa\source\repos\Picture_Viewer1\obj\Debug\Picture_Viewer1.csproj.AssemblyReference.cache
+C:\Users\stefa\source\repos\Picture_Viewer1\obj\Debug\Picture_Viewer1.Form1.resources
+C:\Users\stefa\source\repos\Picture_Viewer1\obj\Debug\Picture_Viewer1.Properties.Resources.resources
+C:\Users\stefa\source\repos\Picture_Viewer1\obj\Debug\Picture_Viewer1.csproj.GenerateResource.cache
+C:\Users\stefa\source\repos\Picture_Viewer1\obj\Debug\Picture_Viewer1.csproj.CoreCompileInputs.cache
+C:\Users\stefa\source\repos\Picture_Viewer1\obj\Debug\Picture_Viewer1.exe
+C:\Users\stefa\source\repos\Picture_Viewer1\obj\Debug\Picture_Viewer1.pdb
