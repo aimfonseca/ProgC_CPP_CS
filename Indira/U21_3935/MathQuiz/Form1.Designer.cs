@@ -61,22 +61,24 @@
             // 
             // timeLabel
             // 
+            timeLabel.BackColor = Color.Firebrick;
             timeLabel.BorderStyle = BorderStyle.FixedSingle;
             timeLabel.Font = new Font("Segoe UI", 15.75F);
             timeLabel.Location = new Point(270, 9);
             timeLabel.Name = "timeLabel";
-            timeLabel.Size = new Size(200, 30);
+            timeLabel.Size = new Size(200, 38);
             timeLabel.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15.75F);
-            label1.Location = new Point(138, 2);
+            label1.Location = new Point(138, 10);
             label1.Name = "label1";
             label1.Size = new Size(126, 37);
             label1.TabIndex = 1;
             label1.Text = "Time Left";
+            label1.Click += label1_Click;
             // 
             // plusLeftLabel
             // 
@@ -126,6 +128,7 @@
             sum.Name = "sum";
             sum.Size = new Size(98, 47);
             sum.TabIndex = 1;
+            sum.Click += answer_Enter;
             // 
             // difference
             // 
@@ -135,6 +138,8 @@
             difference.Name = "difference";
             difference.Size = new Size(98, 47);
             difference.TabIndex = 2;
+            difference.Click += answer_Enter;
+            difference.Enter += answer_Enter;
             // 
             // label3
             // 
@@ -184,6 +189,8 @@
             product.Name = "product";
             product.Size = new Size(98, 47);
             product.TabIndex = 3;
+            product.Click += answer_Enter;
+            product.Enter += answer_Enter;
             // 
             // label8
             // 
@@ -234,6 +241,8 @@
             quotient.Name = "quotient";
             quotient.Size = new Size(98, 47);
             quotient.TabIndex = 4;
+            quotient.Click += answer_Enter;
+            quotient.Enter += answer_Enter;
             // 
             // label12
             // 
@@ -325,6 +334,7 @@
             Name = "Form1";
             Text = "Math Quiz";
             Load += Form1_Load;
+            Enter += answer_Enter;
             ((System.ComponentModel.ISupportInitialize)sum).EndInit();
             ((System.ComponentModel.ISupportInitialize)difference).EndInit();
             ((System.ComponentModel.ISupportInitialize)product).EndInit();

@@ -89,6 +89,11 @@ namespace MathQuiz
             dividedLeftLabel.Text = dividend.ToString();
             dividedRightLabel.Text = divisor.ToString();
             quotient.Value = 0;
+
+            // Start the timer.
+            timeLeft = 30;
+            timeLabel.Text = "30 seconds";
+            timer1.Start();
         }
 
         private void startButton_Click(object sender, EventArgs e)
@@ -146,6 +151,23 @@ namespace MathQuiz
                 quotient.Value = dividend / divisor;
                 startButton.Enabled = true;
             }
+        }
+
+        private void answer_Enter(object sender, EventArgs e)
+        {
+            // Select the whole answer in the NumericUpDown control.
+            NumericUpDown answerBox = sender as NumericUpDown;
+
+            if (answerBox != null)
+            {
+                int lengthOfAnswer = answerBox.Value.ToString().Length;
+                answerBox.Select(0, lengthOfAnswer);
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
