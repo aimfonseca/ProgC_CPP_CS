@@ -53,7 +53,7 @@ namespace Quizz
             dividedRightLabel.Text = divisor.ToString();
             quociente.Value = 0;
 
-            tempo = 1;
+            tempo = 30;
             time_label.Text = tempo.ToString() + " segundos";
             timer1.Start();
 

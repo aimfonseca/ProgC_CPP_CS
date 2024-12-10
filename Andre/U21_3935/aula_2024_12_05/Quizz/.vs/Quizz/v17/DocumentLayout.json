@@ -31,14 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Projeto]",
+              "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Quizz\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Quizz\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Form1.cs [Projeto]",
+              "ToolTip": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Quizz\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T16:41:02.337Z",
-              "EditorCaption": " [Projeto]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwFsBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:40:49.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T16:40:49.989Z"
             },
             {
               "$type": "Document",
@@ -61,7 +60,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Quizz\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAuwKMAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T16:40:33.689Z",
               "EditorCaption": ""
