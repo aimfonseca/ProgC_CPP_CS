@@ -1,4 +1,4 @@
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Header;
+using NAudio.Wave;
 
 namespace Quizz
 {
@@ -22,8 +22,12 @@ namespace Quizz
 
         int tempo;
 
+        bool solucao = false;
+
         private void StartQuizz()
         {
+            time_label.BackColor = Color.Green;
+
             adendo1 = rand.Next(51);
             adendo2 = rand.Next(51);
             plusLeftLabel.Text = adendo1.ToString();
@@ -42,23 +46,79 @@ namespace Quizz
             timesRightLabel.Text = multiplicador.ToString();
             produto.Value = 0;
 
-            dividendo = rand.Next(2, 11);
+            divisor = rand.Next(2, 11);
             int temp = rand.Next(2, 11);
-            divisor = dividendo * temp;
+            dividendo = divisor * temp;
             dividedLeftLabel.Text = dividendo.ToString();
             dividedRightLabel.Text = divisor.ToString();
             quociente.Value = 0;
 
-            tempo = 30;
+            tempo = 1;
             time_label.Text = tempo.ToString() + " segundos";
             timer1.Start();
 
         }
+        private void NumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+
+            if (solucao)
+            {
+                return;
+            }
+            NumericUpDown control = (NumericUpDown)sender;
+
+            if (control != null)
+            {
+                bool correct = false;
+
+                // Check which control triggered the event and validate the answer.
+                if (control == soma && soma.Value == adendo1 + adendo2)
+                {
+                    correct = true;
+                }
+                else if (control == diferenca && diferenca.Value == minuendo - subtrator)
+                {
+                    correct = true;
+                }
+                else if (control == produto && produto.Value == multiplicando * multiplicador)
+                {
+                    correct = true;
+                }
+                else if (control == quociente && quociente.Value == dividendo / divisor)
+                {
+                    correct = true;
+                }
+
+                // Play a sound if the answer is correct.
+                if (correct)
+                {
+                    PlaySound(@"D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\star.wav");
+                }
+            }
+        }
+
 
         private void startBtn_Click(object sender, EventArgs e)
         {
             StartQuizz();
             StartBtn.Enabled = false;
+        }
+
+        private async void PlaySound(string filePath)
+        {
+            await Task.Run(() =>
+            {
+                using (var audioFile = new AudioFileReader(filePath))
+                using (var outputDevice = new WaveOutEvent())
+                {
+                    outputDevice.Init(audioFile);
+                    outputDevice.Play();
+                    while (outputDevice.PlaybackState == PlaybackState.Playing)
+                    {
+                        System.Threading.Thread.Sleep(10);
+                    }
+                }
+            });
         }
 
         private bool verificacao()
@@ -71,10 +131,16 @@ namespace Quizz
             else
                 return false;
         }
+
         public Form1()
         {
             InitializeComponent();
 
+            // Attach ValueChanged events
+            soma.ValueChanged += NumericUpDown_ValueChanged;
+            diferenca.ValueChanged += NumericUpDown_ValueChanged;
+            produto.ValueChanged += NumericUpDown_ValueChanged;
+            quociente.ValueChanged += NumericUpDown_ValueChanged;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -84,12 +150,24 @@ namespace Quizz
                 // If CheckTheAnswer() returns true, then the user 
                 // got the answer right. Stop the timer  
                 // and show a MessageBox.
+                //vitoria.PlaySync();
                 timer1.Stop();
+                PlaySound(@"D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\yamete.wav");
                 MessageBox.Show("Acertaste!", "Parabéns!");
                 StartBtn.Enabled = true;
             }
             else if (tempo > 0)
             {
+                
+                if (tempo <= 11)
+                {
+                    time_label.BackColor = Color.Yellow;
+                }
+
+                if (tempo <= 6) 
+                {
+                    time_label.BackColor = Color.Red;
+                }
                 // If CheckTheAnswer() returns false, keep counting
                 // down. Decrease the time left by one second and 
                 // display the new time left by updating the 
@@ -101,14 +179,35 @@ namespace Quizz
             {
                 // If the user ran out of time, stop the timer, show
                 // a MessageBox, and fill in the answers.
+                //derrota.PlaySync();
                 timer1.Stop();
-                time_label.Text = "Acabou o tempo!";
-                MessageBox.Show("Tenta para a próxima :)", "Não terminaste a tempo.");
+                PlaySound(@"D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\gameover.wav");
+                time_label.Text = "Game Over";
+                
+                solucao = true;
+
                 soma.Value = adendo1 + adendo2;
                 diferenca.Value = minuendo - subtrator;
                 produto.Value = multiplicando * multiplicador;
                 quociente.Value = dividendo / divisor;
+                MessageBox.Show("Tenta para a próxima :)", "Não terminaste a tempo.");
+
+                solucao = false;
+
                 StartBtn.Enabled = true;
+            }
+
+        }
+
+        private void submeter_resposta(object sender, EventArgs e)
+        {
+            // Select the whole answer in the NumericUpDown control.
+            NumericUpDown answerBox = (NumericUpDown)sender;
+
+            if (answerBox != null)
+            {
+                int lengthOfAnswer = answerBox.Value.ToString().Length;
+                answerBox.Select(0, lengthOfAnswer);
             }
 
         }

@@ -122,21 +122,25 @@
             // 
             // soma
             // 
+            soma.BackColor = SystemColors.ActiveCaption;
             soma.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             soma.Location = new Point(322, 82);
             soma.MaximumSize = new Size(100, 0);
             soma.Name = "soma";
             soma.Size = new Size(100, 39);
             soma.TabIndex = 1;
+            soma.Enter += submeter_resposta;
             // 
             // diferenca
             // 
+            diferenca.BackColor = SystemColors.ActiveCaption;
             diferenca.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             diferenca.Location = new Point(322, 144);
             diferenca.MaximumSize = new Size(100, 0);
             diferenca.Name = "diferenca";
             diferenca.Size = new Size(100, 39);
             diferenca.TabIndex = 2;
+            diferenca.Enter += submeter_resposta;
             // 
             // label3
             // 
@@ -180,12 +184,14 @@
             // 
             // produto
             // 
+            produto.BackColor = SystemColors.ActiveCaption;
             produto.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             produto.Location = new Point(322, 204);
             produto.MaximumSize = new Size(100, 0);
             produto.Name = "produto";
             produto.Size = new Size(100, 39);
             produto.TabIndex = 3;
+            produto.Enter += submeter_resposta;
             // 
             // label8
             // 
@@ -229,12 +235,14 @@
             // 
             // quociente
             // 
+            quociente.BackColor = SystemColors.ActiveCaption;
             quociente.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             quociente.Location = new Point(322, 263);
             quociente.MaximumSize = new Size(100, 0);
             quociente.Name = "quociente";
             quociente.Size = new Size(100, 39);
             quociente.TabIndex = 4;
+            quociente.Enter += submeter_resposta;
             // 
             // label12
             // 
@@ -279,13 +287,14 @@
             // StartBtn
             // 
             StartBtn.AutoSize = true;
+            StartBtn.BackColor = SystemColors.ActiveCaption;
             StartBtn.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
             StartBtn.Location = new Point(157, 342);
             StartBtn.Name = "StartBtn";
             StartBtn.Size = new Size(150, 35);
             StartBtn.TabIndex = 0;
             StartBtn.Text = "Começar Quizz";
-            StartBtn.UseVisualStyleBackColor = true;
+            StartBtn.UseVisualStyleBackColor = false;
             StartBtn.Click += startBtn_Click;
             // 
             // timer1
@@ -297,6 +306,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ControlDark;
             ClientSize = new Size(480, 413);
             Controls.Add(StartBtn);
             Controls.Add(quociente);
