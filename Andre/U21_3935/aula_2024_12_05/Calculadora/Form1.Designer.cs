@@ -36,7 +36,7 @@
             button1 = new Button();
             CloseBtn = new Button();
             PainelInferior = new Panel();
-            richTextBox1 = new RichTextBox();
+            RtBoxDisplay = new RichTextBox();
             BtnLimparHistorico = new Button();
             PainelHistorico = new Panel();
             historico = new Button();
@@ -131,6 +131,7 @@
             button2.Size = new Size(50, 40);
             button2.TabIndex = 2;
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -145,6 +146,7 @@
             button1.Size = new Size(50, 40);
             button1.TabIndex = 1;
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // CloseBtn
             // 
@@ -159,10 +161,11 @@
             CloseBtn.Size = new Size(50, 40);
             CloseBtn.TabIndex = 0;
             CloseBtn.UseVisualStyleBackColor = true;
+            CloseBtn.Click += CloseBtn_Click;
             // 
             // PainelInferior
             // 
-            PainelInferior.Controls.Add(richTextBox1);
+            PainelInferior.Controls.Add(RtBoxDisplay);
             PainelInferior.Controls.Add(BtnLimparHistorico);
             PainelInferior.Dock = DockStyle.Bottom;
             PainelInferior.Location = new Point(0, 534);
@@ -171,19 +174,19 @@
             PainelInferior.Size = new Size(347, 1);
             PainelInferior.TabIndex = 1;
             // 
-            // richTextBox1
+            // RtBoxDisplay
             // 
-            richTextBox1.BackColor = Color.FromArgb(32, 32, 32);
-            richTextBox1.BorderStyle = BorderStyle.None;
-            richTextBox1.Dock = DockStyle.Fill;
-            richTextBox1.ForeColor = Color.Silver;
-            richTextBox1.Location = new Point(0, 0);
-            richTextBox1.Margin = new Padding(0);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.ScrollBars = RichTextBoxScrollBars.Horizontal;
-            richTextBox1.Size = new Size(347, 0);
-            richTextBox1.TabIndex = 4;
-            richTextBox1.Text = "";
+            RtBoxDisplay.BackColor = Color.FromArgb(32, 32, 32);
+            RtBoxDisplay.BorderStyle = BorderStyle.None;
+            RtBoxDisplay.Dock = DockStyle.Fill;
+            RtBoxDisplay.ForeColor = Color.Silver;
+            RtBoxDisplay.Location = new Point(0, 0);
+            RtBoxDisplay.Margin = new Padding(0);
+            RtBoxDisplay.Name = "RtBoxDisplay";
+            RtBoxDisplay.ScrollBars = RichTextBoxScrollBars.Horizontal;
+            RtBoxDisplay.Size = new Size(347, 0);
+            RtBoxDisplay.TabIndex = 4;
+            RtBoxDisplay.Text = "";
             // 
             // BtnLimparHistorico
             // 
@@ -198,6 +201,7 @@
             BtnLimparHistorico.Size = new Size(347, 40);
             BtnLimparHistorico.TabIndex = 3;
             BtnLimparHistorico.UseVisualStyleBackColor = true;
+            BtnLimparHistorico.Click += BtnLimparHistClick;
             // 
             // PainelHistorico
             // 
@@ -223,6 +227,7 @@
             historico.Size = new Size(50, 40);
             historico.TabIndex = 2;
             historico.UseVisualStyleBackColor = true;
+            historico.Click += historicoClick;
             // 
             // menu
             // 
@@ -249,22 +254,21 @@
             Display2.Name = "Display2";
             Display2.Size = new Size(343, 23);
             Display2.TabIndex = 3;
-            Display2.Text = "666";
             Display2.TextAlign = HorizontalAlignment.Right;
             // 
             // Display1
             // 
             Display1.BackColor = Color.FromArgb(30, 30, 30);
             Display1.BorderStyle = BorderStyle.None;
-            Display1.Font = new Font("Gadugi", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            Display1.Font = new Font("Gadugi", 28F, FontStyle.Bold, GraphicsUnit.Point);
             Display1.ForeColor = Color.White;
             Display1.Location = new Point(0, 126);
             Display1.Margin = new Padding(0);
             Display1.Multiline = true;
             Display1.Name = "Display1";
-            Display1.Size = new Size(347, 40);
+            Display1.Size = new Size(347, 45);
             Display1.TabIndex = 4;
-            Display1.Text = "666";
+            Display1.Text = "0";
             Display1.TextAlign = HorizontalAlignment.Right;
             // 
             // MaisOuMenos
@@ -288,6 +292,7 @@
             MaisOuMenos.Text = "+/-";
             MaisOuMenos.TextColor = Color.White;
             MaisOuMenos.UseVisualStyleBackColor = false;
+            MaisOuMenos.Click += BtnOperacaoSpec;
             // 
             // Btn0
             // 
@@ -310,6 +315,7 @@
             Btn0.Text = "0";
             Btn0.TextColor = Color.White;
             Btn0.UseVisualStyleBackColor = false;
+            Btn0.Click += BtnNumClick;
             // 
             // BtnVirgula
             // 
@@ -332,6 +338,7 @@
             BtnVirgula.Text = ",";
             BtnVirgula.TextColor = Color.White;
             BtnVirgula.UseVisualStyleBackColor = false;
+            BtnVirgula.Click += BtnNumClick;
             // 
             // BtnIgual
             // 
@@ -353,6 +360,7 @@
             BtnIgual.Text = "＝";
             BtnIgual.TextColor = Color.Black;
             BtnIgual.UseVisualStyleBackColor = false;
+            BtnIgual.Click += BtnIgualClick;
             // 
             // Btn3
             // 
@@ -375,6 +383,7 @@
             Btn3.Text = "3";
             Btn3.TextColor = Color.White;
             Btn3.UseVisualStyleBackColor = false;
+            Btn3.Click += BtnNumClick;
             // 
             // Btn2
             // 
@@ -397,6 +406,7 @@
             Btn2.Text = "2";
             Btn2.TextColor = Color.White;
             Btn2.UseVisualStyleBackColor = false;
+            Btn2.Click += BtnNumClick;
             // 
             // Btn1
             // 
@@ -419,6 +429,7 @@
             Btn1.Text = "1";
             Btn1.TextColor = Color.White;
             Btn1.UseVisualStyleBackColor = false;
+            Btn1.Click += BtnNumClick;
             // 
             // Btn6
             // 
@@ -441,6 +452,7 @@
             Btn6.Text = "6";
             Btn6.TextColor = Color.White;
             Btn6.UseVisualStyleBackColor = false;
+            Btn6.Click += BtnNumClick;
             // 
             // Btn5
             // 
@@ -463,6 +475,7 @@
             Btn5.Text = "5";
             Btn5.TextColor = Color.White;
             Btn5.UseVisualStyleBackColor = false;
+            Btn5.Click += BtnNumClick;
             // 
             // Btn4
             // 
@@ -485,6 +498,7 @@
             Btn4.Text = "4";
             Btn4.TextColor = Color.White;
             Btn4.UseVisualStyleBackColor = false;
+            Btn4.Click += BtnNumClick;
             // 
             // Btn9
             // 
@@ -507,6 +521,7 @@
             Btn9.Text = "9";
             Btn9.TextColor = Color.White;
             Btn9.UseVisualStyleBackColor = false;
+            Btn9.Click += BtnNumClick;
             // 
             // Btn8
             // 
@@ -529,6 +544,7 @@
             Btn8.Text = "8";
             Btn8.TextColor = Color.White;
             Btn8.UseVisualStyleBackColor = false;
+            Btn8.Click += BtnNumClick;
             // 
             // btn7
             // 
@@ -551,6 +567,7 @@
             btn7.Text = "7";
             btn7.TextColor = Color.White;
             btn7.UseVisualStyleBackColor = false;
+            btn7.Click += BtnNumClick;
             // 
             // BtnRaizQuadrada
             // 
@@ -572,6 +589,7 @@
             BtnRaizQuadrada.Text = "²√𝑥";
             BtnRaizQuadrada.TextColor = Color.White;
             BtnRaizQuadrada.UseVisualStyleBackColor = false;
+            BtnRaizQuadrada.Click += BtnOperacaoSpec;
             // 
             // BtnQuadrado
             // 
@@ -593,6 +611,7 @@
             BtnQuadrado.Text = "𝑥²";
             BtnQuadrado.TextColor = Color.White;
             BtnQuadrado.UseVisualStyleBackColor = false;
+            BtnQuadrado.Click += BtnOperacaoSpec;
             // 
             // BtnFraccao
             // 
@@ -614,6 +633,7 @@
             BtnFraccao.Text = "¹/𝑥";
             BtnFraccao.TextColor = Color.White;
             BtnFraccao.UseVisualStyleBackColor = false;
+            BtnFraccao.Click += BtnOperacaoSpec;
             // 
             // BtnC
             // 
@@ -635,6 +655,7 @@
             BtnC.Text = "C";
             BtnC.TextColor = Color.White;
             BtnC.UseVisualStyleBackColor = false;
+            BtnC.Click += BtnC_Click;
             // 
             // BtnCE
             // 
@@ -656,6 +677,7 @@
             BtnCE.Text = "CE";
             BtnCE.TextColor = Color.White;
             BtnCE.UseVisualStyleBackColor = false;
+            BtnCE.Click += BtnCE_Click;
             // 
             // BtnPercent
             // 
@@ -677,6 +699,7 @@
             BtnPercent.Text = "％\t";
             BtnPercent.TextColor = Color.White;
             BtnPercent.UseVisualStyleBackColor = false;
+            BtnPercent.Click += BtnOperacaoSpec;
             // 
             // BtnApagar
             // 
@@ -698,6 +721,7 @@
             BtnApagar.TabIndex = 29;
             BtnApagar.TextColor = Color.White;
             BtnApagar.UseVisualStyleBackColor = false;
+            BtnApagar.Click += BtnApagar_Click;
             // 
             // BtnDivisao
             // 
@@ -719,6 +743,7 @@
             BtnDivisao.Text = "÷";
             BtnDivisao.TextColor = Color.White;
             BtnDivisao.UseVisualStyleBackColor = false;
+            BtnDivisao.Click += BtnOperacaoClick;
             // 
             // BtnVezes
             // 
@@ -740,6 +765,7 @@
             BtnVezes.Text = "×";
             BtnVezes.TextColor = Color.White;
             BtnVezes.UseVisualStyleBackColor = false;
+            BtnVezes.Click += BtnOperacaoClick;
             // 
             // BtnMenos
             // 
@@ -761,6 +787,7 @@
             BtnMenos.Text = "−";
             BtnMenos.TextColor = Color.White;
             BtnMenos.UseVisualStyleBackColor = false;
+            BtnMenos.Click += BtnOperacaoClick;
             // 
             // BtnMais
             // 
@@ -782,6 +809,7 @@
             BtnMais.Text = "+";
             BtnMais.TextColor = Color.White;
             BtnMais.UseVisualStyleBackColor = false;
+            BtnMais.Click += BtnOperacaoClick;
             // 
             // BtnMC
             // 
@@ -795,14 +823,14 @@
             BtnMC.FlatAppearance.MouseOverBackColor = Color.FromArgb(50, 50, 50);
             BtnMC.FlatStyle = FlatStyle.Flat;
             BtnMC.Font = new Font("Gadugi", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            BtnMC.ForeColor = Color.White;
+            BtnMC.ForeColor = Color.Gray;
             BtnMC.Location = new Point(3, 201);
             BtnMC.Margin = new Padding(0);
             BtnMC.Name = "BtnMC";
             BtnMC.Size = new Size(57, 30);
             BtnMC.TabIndex = 30;
             BtnMC.Text = "MC";
-            BtnMC.TextColor = Color.White;
+            BtnMC.TextColor = Color.Gray;
             BtnMC.UseVisualStyleBackColor = false;
             // 
             // BtnMmenos
@@ -861,14 +889,14 @@
             BtnMR.FlatAppearance.MouseOverBackColor = Color.FromArgb(50, 50, 50);
             BtnMR.FlatStyle = FlatStyle.Flat;
             BtnMR.Font = new Font("Gadugi", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            BtnMR.ForeColor = Color.White;
+            BtnMR.ForeColor = Color.Gray;
             BtnMR.Location = new Point(60, 201);
             BtnMR.Margin = new Padding(0);
             BtnMR.Name = "BtnMR";
             BtnMR.Size = new Size(57, 30);
             BtnMR.TabIndex = 33;
             BtnMR.Text = "MR";
-            BtnMR.TextColor = Color.White;
+            BtnMR.TextColor = Color.Gray;
             BtnMR.UseVisualStyleBackColor = false;
             // 
             // BtnMS
@@ -905,14 +933,14 @@
             BtnM.FlatAppearance.MouseOverBackColor = Color.FromArgb(50, 50, 50);
             BtnM.FlatStyle = FlatStyle.Flat;
             BtnM.Font = new Font("Gadugi", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            BtnM.ForeColor = Color.White;
+            BtnM.ForeColor = Color.Gray;
             BtnM.Location = new Point(286, 201);
             BtnM.Margin = new Padding(0);
             BtnM.Name = "BtnM";
             BtnM.Size = new Size(57, 30);
             BtnM.TabIndex = 34;
             BtnM.Text = "M▼";
-            BtnM.TextColor = Color.White;
+            BtnM.TextColor = Color.Gray;
             BtnM.UseVisualStyleBackColor = false;
             // 
             // Form1
@@ -920,6 +948,7 @@
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.FromArgb(30, 30, 30);
             ClientSize = new Size(347, 535);
+            Controls.Add(PainelInferior);
             Controls.Add(BtnMS);
             Controls.Add(BtnM);
             Controls.Add(BtnMR);
@@ -953,7 +982,6 @@
             Controls.Add(Display1);
             Controls.Add(Display2);
             Controls.Add(PainelHistorico);
-            Controls.Add(PainelInferior);
             Controls.Add(PainelSuperior);
             Font = new Font("Gadugi", 12F, FontStyle.Regular, GraphicsUnit.Point);
             ForeColor = Color.White;
@@ -983,7 +1011,7 @@
         private TextBox Display1;
         private Button historico;
         private Button BtnLimparHistorico;
-        private RichTextBox richTextBox1;
+        private RichTextBox RtBoxDisplay;
         private CustomControls.RJControls.RJButton MaisOuMenos;
         private CustomControls.RJControls.RJButton Btn0;
         private CustomControls.RJControls.RJButton BtnVirgula;
