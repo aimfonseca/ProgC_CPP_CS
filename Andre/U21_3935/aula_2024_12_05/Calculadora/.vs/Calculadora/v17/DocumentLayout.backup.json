@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Calculadora\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F7BE92E2-0E56-4B9E-A909-0D32AF2869CA}|Calculadora.csproj|d:\\github_repository_ap\\progc_cpp_cs\\andre\\u21_3935\\aula_2024_12_05\\calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7BE92E2-0E56-4B9E-A909-0D32AF2869CA}|Calculadora.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7BE92E2-0E56-4B9E-A909-0D32AF2869CA}|Calculadora.csproj|d:\\github_repository_ap\\progc_cpp_cs\\andre\\u21_3935\\aula_2024_12_05\\calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F7BE92E2-0E56-4B9E-A909-0D32AF2869CA}|Calculadora.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7BE92E2-0E56-4B9E-A909-0D32AF2869CA}|Calculadora.csproj|d:\\github_repository_ap\\progc_cpp_cs\\andre\\u21_3935\\aula_2024_12_05\\calculadora\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7BE92E2-0E56-4B9E-A909-0D32AF2869CA}|Calculadora.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7BE92E2-0E56-4B9E-A909-0D32AF2869CA}|Calculadora.csproj|d:\\github_repository_ap\\progc_cpp_cs\\andre\\u21_3935\\aula_2024_12_05\\calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7BE92E2-0E56-4B9E-A909-0D32AF2869CA}|Calculadora.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7BE92E2-0E56-4B9E-A909-0D32AF2869CA}|Calculadora.csproj|d:\\github_repository_ap\\progc_cpp_cs\\andre\\u21_3935\\aula_2024_12_05\\calculadora\\calculadora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,27 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Calculadora\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Calculadora\\Form1.cs [Projeto]*",
-              "RelativeToolTip": "Form1.cs [Projeto]*",
+              "ToolTip": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Calculadora\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T15:42:20.462Z",
+              "WhenOpened": "2024-12-10T15:19:13.525Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Calculadora\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Calculadora\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAABwCAAAAAAAAAAAiwDkCAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T15:18:31.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Calculadora\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Calculadora\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAASwKoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T10:59:49.309Z"
+              "WhenOpened": "2024-12-06T10:59:49.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -67,19 +81,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-12-06T12:42:38.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Calculadora\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Calculadora\\Form1.Designer.cs*",
-              "RelativeToolTip": "Form1.Designer.cs*",
-              "ViewState": "AgIAACUDAAAAAAAAAAAqwDsDAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T11:00:00.481Z",
-              "EditorCaption": ""
             }
           ]
         }
