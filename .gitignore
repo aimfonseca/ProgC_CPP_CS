@@ -1,4 +1,8 @@
 *.exe
+# Ignore build files
+**/obj/
+**/bin/
+*.cache
 .vscode/settings.json
 .vscode/c_cpp_properties.json
 .vscode/settings.json
