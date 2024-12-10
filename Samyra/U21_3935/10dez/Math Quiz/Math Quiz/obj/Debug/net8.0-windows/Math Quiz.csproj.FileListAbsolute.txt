@@ -1,0 +1,16 @@
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\bin\Debug\net8.0-windows\Math Quiz.exe
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\bin\Debug\net8.0-windows\Math Quiz.deps.json
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\bin\Debug\net8.0-windows\Math Quiz.runtimeconfig.json
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\bin\Debug\net8.0-windows\Math Quiz.dll
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\bin\Debug\net8.0-windows\Math Quiz.pdb
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\obj\Debug\net8.0-windows\Math_Quiz.Form1.resources
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\obj\Debug\net8.0-windows\Math Quiz.csproj.GenerateResource.cache
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\obj\Debug\net8.0-windows\Math Quiz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\obj\Debug\net8.0-windows\Math Quiz.AssemblyInfoInputs.cache
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\obj\Debug\net8.0-windows\Math Quiz.AssemblyInfo.cs
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\obj\Debug\net8.0-windows\Math Quiz.csproj.CoreCompileInputs.cache
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\obj\Debug\net8.0-windows\Math Quiz.dll
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\obj\Debug\net8.0-windows\refint\Math Quiz.dll
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\obj\Debug\net8.0-windows\Math Quiz.pdb
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\obj\Debug\net8.0-windows\Math Quiz.genruntimeconfig.cache
+C:\Programador de informatica\U21 - 3935\Math Quiz\Math Quiz\obj\Debug\net8.0-windows\ref\Math Quiz.dll

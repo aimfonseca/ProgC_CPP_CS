@@ -1,0 +1,17 @@
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.exe
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.deps.json
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.runtimeconfig.json
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.dll
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.pdb
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.Form1.resources
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.GenerateResource.cache
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfoInputs.cache
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfo.cs
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.CoreCompileInputs.cache
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.dll
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\obj\Debug\net8.0-windows\refint\Calculadora.dll
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.pdb
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.genruntimeconfig.cache
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\obj\Debug\net8.0-windows\ref\Calculadora.dll
+C:\Programador de informatica\U21 - 3935\Calculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.Properties.Resources.resources

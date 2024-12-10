@@ -1,0 +1,16 @@
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.Form1.resources
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.csproj.GenerateResource.cache
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.AssemblyInfoInputs.cache
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.AssemblyInfo.cs
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.csproj.CoreCompileInputs.cache
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\bin\Debug\net8.0-windows\MatchingGame.exe
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\bin\Debug\net8.0-windows\MatchingGame.deps.json
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\bin\Debug\net8.0-windows\MatchingGame.runtimeconfig.json
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\bin\Debug\net8.0-windows\MatchingGame.dll
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\bin\Debug\net8.0-windows\MatchingGame.pdb
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.dll
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\refint\MatchingGame.dll
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.pdb
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\MatchingGame.genruntimeconfig.cache
+C:\Programador de informatica\U21 - 3935\MatchingGame\MatchingGame\obj\Debug\net8.0-windows\ref\MatchingGame.dll
