@@ -1,8 +1,16 @@
 *.exe
-# Ignore build files
-**/obj/
-**/bin/
-*.cache
+# Ignorar arquivos de build do Visual Studio
+.vs/
+bin/
+obj/
+
+# Ignorar arquivos de configuração do Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+
 .vscode/settings.json
 .vscode/c_cpp_properties.json
 .vscode/settings.json

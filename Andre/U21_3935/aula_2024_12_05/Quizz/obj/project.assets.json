@@ -493,7 +493,7 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ServidoresLocais\\GitHub\\ProgC_CPP\\Andre\\U21_3935\\aula_2024_12_05\\Quizz\\Quizz.csproj",
+      "projectUniqueName": "D:\\GitHub_Repository_AP\\ProgC_CPP_CS\\Andre\\U21_3935\\aula_2024_12_05\\Quizz\\Quizz.csproj",
       "projectName": "Quizz",
       "projectPath": "D:\\ServidoresLocais\\GitHub\\ProgC_CPP\\Andre\\U21_3935\\aula_2024_12_05\\Quizz\\Quizz.csproj",
       "packagesPath": "C:\\Users\\António\\.nuget\\packages\\",
@@ -503,6 +503,7 @@
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+        "C:\\Users\\Cordyceps\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Users\\António\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -586,8 +587,7 @@
     {
       "code": "Undefined",
       "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\ServidoresLocais\\GitHub\\ProgC_CPP\\Andre\\U21_3935\\aula_2024_12_05\\Quizz\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "warningLevel": 1
     }
   ]
 }

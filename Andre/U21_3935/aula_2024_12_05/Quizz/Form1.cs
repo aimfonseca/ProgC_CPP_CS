@@ -92,7 +92,7 @@ namespace Quizz
                 // Play a sound if the answer is correct.
                 if (correct)
                 {
-                    PlaySound(@"D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\star.wav");
+                    PlaySound("star.wav");
                 }
             }
         }
@@ -104,11 +104,14 @@ namespace Quizz
             StartBtn.Enabled = false;
         }
 
-        private async void PlaySound(string filePath)
+        private async void PlaySound(string fileName)
         {
+            string directory = Application.StartupPath;
+            string fullFilePath = Path.Combine(directory, "sounds", fileName);
+
             await Task.Run(() =>
             {
-                using (var audioFile = new AudioFileReader(filePath))
+                using (var audioFile = new AudioFileReader(fullFilePath))
                 using (var outputDevice = new WaveOutEvent())
                 {
                     outputDevice.Init(audioFile);
@@ -152,7 +155,7 @@ namespace Quizz
                 // and show a MessageBox.
                 //vitoria.PlaySync();
                 timer1.Stop();
-                PlaySound(@"D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\yamete.wav");
+                PlaySound("yamete.wav");
                 MessageBox.Show("Acertaste!", "Parabéns!");
                 StartBtn.Enabled = true;
             }
@@ -181,7 +184,7 @@ namespace Quizz
                 // a MessageBox, and fill in the answers.
                 //derrota.PlaySync();
                 timer1.Stop();
-                PlaySound(@"D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\gameover.wav");
+                PlaySound("gameover.wav");
                 time_label.Text = "Game Over";
                 
                 solucao = true;
