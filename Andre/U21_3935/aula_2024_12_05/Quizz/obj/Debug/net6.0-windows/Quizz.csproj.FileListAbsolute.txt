@@ -24,3 +24,6 @@ D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\bin\De
 D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\bin\Debug\net6.0-windows\NAudio.WinMM.dll
 D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\obj\Debug\net6.0-windows\Quizz.csproj.AssemblyReference.cache
 D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\obj\Debug\net6.0-windows\Quizz.csproj.Up2Date
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\bin\Debug\net6.0-windows\sounds\gameover.wav
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\bin\Debug\net6.0-windows\sounds\star.wav
+D:\GitHub_Repository_AP\ProgC_CPP_CS\Andre\U21_3935\aula_2024_12_05\Quizz\bin\Debug\net6.0-windows\sounds\yamete.wav
